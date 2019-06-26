@@ -1,0 +1,47 @@
+{
+    "../img/imgs/9.png": {
+        "list": [{
+                "id": "shop25",
+                "name": "SELPHY CP1300 白色",
+                "src": "../img/imgs/dy1.jpg",
+                "oldprice": ":￥1049.00",
+                "newprice": ":￥899.00"
+            },
+
+            {
+                "id": "shop26",
+                "name": "SELPHY CP1300 粉色",
+                "src": "../img/imgs/dy2.jpg",
+                "oldprice": ":￥1049.00",
+                "newprice": ":￥899.00"
+            },
+            {
+                "id": "shop27",
+                "name": "彩色墨水/纸张组合 KC-36IP(卡片尺寸)",
+                "src": "../img/imgs/dy3.png",
+                "oldprice": ":￥99.00",
+                "newprice": ":￥99.00"
+            },
+            {
+                "id": "shop28",
+                "name": "彩色墨水/纸张组合 RP-108",
+                "src": "../img/imgs/dy4.png",
+                "oldprice": ":￥249.00",
+                "newprice": ":￥249.00"
+            }, {
+                "id": "shop29",
+                "name": "卡片尺寸纸盒 PCC-CP400",
+                "src": "../img/imgs/dy5.png",
+                "oldprice": ":￥99.00",
+                "newprice": ":￥99.00"
+            }, {
+                "id": "shop30",
+                "name": "卡片尺寸纸盒 PCC-CP400",
+                "src": "../img/imgs/dy6.jpg",
+                "oldprice": ":￥1248.00",
+                "newprice": ":￥1098.00"
+            }
+        ]
+
+    }
+}

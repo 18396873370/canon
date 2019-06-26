@@ -1,0 +1,1301 @@
+//轮播图
+.picture {
+    width: 1200px;
+    margin: 0 auto;
+
+    .motion {
+        position: relative;
+
+        width: 1200px;
+        height: 454px;
+
+        .move {
+            display: block;
+            z-index: 1;
+        }
+
+        li {
+            position: absolute;
+            list-style: none;
+        }
+    }
+
+    .num {
+        width: 698px;
+        height: 8px;
+        margin: 0 auto;
+
+        .change {
+            width: 28px;
+        }
+
+        li {
+            margin-top: 20px;
+            list-style: none;
+            width: 28px;
+            height: 8px;
+            background: #c3c3c3;
+            border-radius: 3px;
+            float: left;
+            margin-right: 10px;
+        }
+    }
+
+}
+
+//展示页面
+.content {
+    width: 1200px;
+    margin: 0 auto;
+
+    margin-top: 70px;
+
+
+
+    .show {
+        overflow: hidden;
+
+        .last {
+            margin-right: 0;
+        }
+
+        a {
+            display: block;
+            width: 30%;
+            float: left;
+            margin-right: 5%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    //显示内容
+    .moreshop {
+        width: 1200px;
+        margin: 0 auto;
+
+        //单反相机
+        .DSLR {
+            overflow: hidden;
+            margin-top: 50px;
+            background: url(../img/background1.beb1bda.png) no-repeat;
+            width: 1200px;
+            height: 623px;
+
+
+
+            .module {
+                float: left;
+                margin-left: 58px;
+                margin-top: 79px;
+                position: relative;
+                margin-right: 58px;
+
+                img {
+                    width: 219.99px;
+                }
+            }
+
+            .lookmore {
+
+                display: block;
+                height: 36px;
+                width: 140px;
+                background: #ffffff;
+                color: #b4252d;
+                font-weight: bold;
+                font-size: 20px;
+                text-align: center;
+                line-height: 36px;
+                border-radius: 5px;
+                letter-spacing: 3px;
+                position: absolute;
+                left: 16.3%;
+                top: 92%;
+
+            }
+
+            .item {
+                float: left;
+                height: 602px;
+                width: 850px;
+
+
+                .details {
+                    float: left;
+                    background: #f2f2f2;
+                    margin-top: 20px;
+                    overflow: hidden;
+                    margin-left: 1px;
+
+                    .moresee {
+                        position: relative;
+                        float: left;
+                        background: #ffffff;
+                        list-style: none;
+                        width: 274px;
+                        height: 284px;
+                        text-align: center;
+                        overflow: hidden;
+                        margin-right: 13px;
+                        margin-top: 17px;
+
+                        .mate {
+                            height: 100%;
+                            width: 100%;
+                            background: rgba(0, 0, 0, 0.3);
+                            position: absolute;
+                            display: none;
+
+                            .seemore {
+                                height: 50px;
+                                margin: 0 auto;
+                                width: 100px;
+                                color: #fff;
+                                border: 2px solid #fff;
+                                text-align: center;
+                                line-height: 50px;
+                                margin-top: 120px;
+
+                            }
+                        }
+
+                        .active_price {
+                            font-size: 14px;
+                            font-weight: bold;
+                            letter-spacing: 9px;
+                            color: #af0c19;
+
+                            span {
+                                letter-spacing: 0px;
+                            }
+                        }
+
+                        .DSLR_content {
+                            text-decoration: none;
+
+                            ._name {
+                                color: #000;
+                                text-align: center;
+                                margin-bottom: 26px;
+                                padding-top: 32px;
+                                font-size: 18px;
+                                font-weight: bold;
+                                height: 80px;
+                                box-sizing: border-box;
+                                margin: 0px 20px;
+                            }
+
+                            .old_price {
+                                font-size: 14px;
+                                text-decoration-line: line-through;
+                                color: #b3b3b3;
+                                font-weight: bold;
+                            }
+
+
+
+                            img {
+                                height: 128px;
+                                width: 128px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //镜头
+        .camera_lens {
+            margin-top: 50px;
+            background: url(../img/background2.49e2643.png);
+            overflow: hidden;
+            width: 1200px;
+            height: 623px;
+
+            .module {
+                float: left;
+                margin-left: 58px;
+                margin-top: 79px;
+                position: relative;
+                margin-right: 58px;
+            }
+
+            .lookmore {
+
+                display: block;
+                height: 36px;
+                width: 140px;
+                background: #ffffff;
+                color: #b4252d;
+                font-weight: bold;
+                font-size: 20px;
+                text-align: center;
+                line-height: 36px;
+                border-radius: 5px;
+                letter-spacing: 3px;
+                position: absolute;
+                left: 18.3%;
+                top: 92%;
+
+            }
+
+            .item {
+                float: left;
+                height: 602px;
+                width: 850px;
+
+
+                .details {
+                    float: left;
+                    background: #f2f2f2;
+                    margin-top: 20px;
+                    overflow: hidden;
+
+
+                    .moresee {
+                        float: left;
+                        background: #ffffff;
+                        list-style: none;
+                        width: 274px;
+                        height: 284px;
+                        text-align: center;
+                        overflow: hidden;
+                        margin-right: 13px;
+                        margin-top: 17px;
+                        position: relative;
+
+                        .active_price {
+                            font-size: 14px;
+                            font-weight: bold;
+                            letter-spacing: 9px;
+                            color: #af0c19;
+
+                            span {
+                                letter-spacing: 0px;
+                            }
+                        }
+
+                        .mate {
+                            height: 100%;
+                            width: 100%;
+                            background: rgba(0, 0, 0, 0.3);
+                            position: absolute;
+                            display: none;
+
+                            .seemore {
+                                height: 50px;
+                                margin: 0 auto;
+                                width: 100px;
+                                color: #fff;
+                                border: 2px solid #fff;
+                                text-align: center;
+                                line-height: 50px;
+                                margin-top: 120px;
+
+                            }
+                        }
+
+                        .DSLR_content {
+                            text-decoration: none;
+
+                            ._name {
+                                color: #000;
+                                text-align: center;
+                                margin-bottom: 26px;
+                                padding-top: 32px;
+                                font-size: 18px;
+                                font-weight: bold;
+                                height: 80px;
+                                box-sizing: border-box;
+                                margin: 0px 20px;
+                            }
+
+                            .old_price {
+                                font-size: 14px;
+                                text-decoration-line: line-through;
+                                color: #b3b3b3;
+                                font-weight: bold;
+                            }
+
+
+
+                            img {
+                                height: 128px;
+                                width: 128px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //打印机及一体机
+        .imac {
+            overflow: hidden;
+            margin-top: 50px;
+            background: url(../img/background1.beb1bda.png) no-repeat;
+            width: 1200px;
+            height: 623px;
+
+
+
+            .module {
+                float: left;
+                margin-left: 58px;
+                margin-top: 79px;
+                position: relative;
+                margin-right: 58px;
+
+                img {
+                    width: 219.99px;
+                }
+            }
+
+            .lookmore {
+
+                display: block;
+                height: 36px;
+                width: 140px;
+                background: #ffffff;
+                color: #b4252d;
+                font-weight: bold;
+                font-size: 20px;
+                text-align: center;
+                line-height: 36px;
+                border-radius: 5px;
+                letter-spacing: 3px;
+                position: absolute;
+                left: 16.3%;
+                top: 92%;
+
+            }
+
+            .item {
+                float: left;
+                height: 602px;
+                width: 850px;
+
+
+                .details {
+                    float: left;
+                    background: #f2f2f2;
+                    margin-top: 20px;
+                    overflow: hidden;
+                    margin-left: 1px;
+
+
+                    .moresee {
+                        position: relative;
+                        float: left;
+                        background: #ffffff;
+                        list-style: none;
+                        width: 274px;
+                        height: 284px;
+                        text-align: center;
+                        overflow: hidden;
+                        margin-right: 13px;
+                        margin-top: 17px;
+
+                        .mate {
+                            height: 100%;
+                            width: 100%;
+                            background: rgba(0, 0, 0, 0.3);
+                            position: absolute;
+                            display: none;
+
+                            .seemore {
+                                height: 50px;
+                                margin: 0 auto;
+                                width: 100px;
+                                color: #fff;
+                                border: 2px solid #fff;
+                                text-align: center;
+                                line-height: 50px;
+                                margin-top: 120px;
+
+                            }
+                        }
+
+                        .active_price {
+                            font-size: 14px;
+                            font-weight: bold;
+                            letter-spacing: 9px;
+                            color: #af0c19;
+
+                            span {
+                                letter-spacing: 0px;
+                            }
+                        }
+
+                        .DSLR_content {
+                            text-decoration: none;
+
+                            ._name {
+                                color: #000;
+                                text-align: center;
+                                margin-bottom: 26px;
+                                padding-top: 32px;
+                                font-size: 18px;
+                                font-weight: bold;
+                                height: 80px;
+                                box-sizing: border-box;
+                                margin: 0px 20px;
+                            }
+
+                            .old_price {
+                                font-size: 14px;
+                                text-decoration-line: line-through;
+                                color: #b3b3b3;
+                                font-weight: bold;
+                            }
+
+
+                            img {
+                                height: 128px;
+                                width: 128px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //数码摄像机
+        .DVR {
+            margin-top: 50px;
+            background: url(../img/background2.49e2643.png);
+            overflow: hidden;
+            width: 1200px;
+            height: 623px;
+
+            .module {
+                float: left;
+                margin-left: 58px;
+                margin-top: 79px;
+                position: relative;
+                margin-right: 58px;
+            }
+
+            .lookmore {
+
+                display: block;
+                height: 36px;
+                width: 140px;
+                background: #ffffff;
+                color: #b4252d;
+                font-weight: bold;
+                font-size: 20px;
+                text-align: center;
+                line-height: 36px;
+                border-radius: 5px;
+                letter-spacing: 3px;
+                position: absolute;
+                left: 18.3%;
+                top: 92%;
+
+            }
+
+            .item {
+                float: left;
+                height: 602px;
+                width: 850px;
+
+
+                .details {
+                    float: left;
+                    background: #f2f2f2;
+                    margin-top: 20px;
+                    overflow: hidden;
+
+
+                    .moresee {
+                        float: left;
+                        background: #ffffff;
+                        list-style: none;
+                        width: 274px;
+                        height: 284px;
+                        text-align: center;
+                        overflow: hidden;
+                        margin-right: 13px;
+                        margin-top: 17px;
+                        position: relative;
+
+                        .mate {
+                            height: 100%;
+                            width: 100%;
+                            background: rgba(0, 0, 0, 0.3);
+                            position: absolute;
+                            display: none;
+
+                            .seemore {
+                                height: 50px;
+                                margin: 0 auto;
+                                width: 100px;
+                                color: #fff;
+                                border: 2px solid #fff;
+                                text-align: center;
+                                line-height: 50px;
+                                margin-top: 120px;
+
+                            }
+                        }
+
+                        .active_price {
+                            font-size: 14px;
+                            font-weight: bold;
+                            letter-spacing: 9px;
+                            color: #af0c19;
+
+                            span {
+                                letter-spacing: 0px;
+                            }
+                        }
+
+                        .DSLR_content {
+                            text-decoration: none;
+
+                            ._name {
+                                color: #000;
+                                text-align: center;
+                                margin-bottom: 26px;
+                                padding-top: 32px;
+                                font-size: 18px;
+                                font-weight: bold;
+                                height: 80px;
+                                box-sizing: border-box;
+                                margin: 0px 20px;
+                            }
+
+                            .old_price {
+                                font-size: 14px;
+                                text-decoration-line: line-through;
+                                color: #b3b3b3;
+                                font-weight: bold;
+                            }
+
+
+                            img {
+                                height: 128px;
+                                width: 128px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //小型照片打印机
+        .printer {
+            overflow: hidden;
+            margin-top: 50px;
+            background: url(../img/background1.beb1bda.png) no-repeat;
+            width: 1200px;
+            height: 623px;
+
+
+
+            .module {
+                float: left;
+                margin-left: 58px;
+                margin-top: 79px;
+                position: relative;
+                margin-right: 58px;
+
+                img {
+                    width: 219.99px;
+                }
+            }
+
+            .lookmore {
+
+                display: block;
+                height: 36px;
+                width: 140px;
+                background: #ffffff;
+                color: #b4252d;
+                font-weight: bold;
+                font-size: 20px;
+                text-align: center;
+                line-height: 36px;
+                border-radius: 5px;
+                letter-spacing: 3px;
+                position: absolute;
+                left: 16.3%;
+                top: 92%;
+
+            }
+
+            .item {
+                float: left;
+                height: 602px;
+                width: 850px;
+
+
+                .details {
+                    float: left;
+                    background: #f2f2f2;
+                    margin-top: 20px;
+                    overflow: hidden;
+                    margin-left: 1px;
+
+
+                    .moresee {
+                        position: relative;
+                        float: left;
+                        background: #ffffff;
+                        list-style: none;
+                        width: 274px;
+                        height: 284px;
+                        text-align: center;
+                        overflow: hidden;
+                        margin-right: 13px;
+                        margin-top: 17px;
+
+                        .mate {
+                            height: 100%;
+                            width: 100%;
+                            background: rgba(0, 0, 0, 0.3);
+                            position: absolute;
+                            display: none;
+
+                            .seemore {
+                                height: 50px;
+                                margin: 0 auto;
+                                width: 100px;
+                                color: #fff;
+                                border: 2px solid #fff;
+                                text-align: center;
+                                line-height: 50px;
+                                margin-top: 120px;
+
+                            }
+                        }
+
+                        .active_price {
+                            font-size: 14px;
+                            font-weight: bold;
+                            letter-spacing: 9px;
+                            color: #af0c19;
+
+                            span {
+                                letter-spacing: 0px;
+                            }
+                        }
+
+                        .DSLR_content {
+                            text-decoration: none;
+
+                            ._name {
+                                color: #000;
+                                text-align: center;
+                                margin-bottom: 26px;
+                                padding-top: 32px;
+                                font-size: 18px;
+                                font-weight: bold;
+                                height: 80px;
+                                box-sizing: border-box;
+                                margin: 0px 20px;
+                            }
+
+                            .old_price {
+                                font-size: 14px;
+                                text-decoration-line: line-through;
+                                color: #b3b3b3;
+                                font-weight: bold;
+                            }
+
+
+
+                            img {
+                                height: 128px;
+                                width: 128px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //小型数码相机
+        .camera {
+            margin-top: 50px;
+            background: url(../img/background2.49e2643.png);
+            overflow: hidden;
+            width: 1200px;
+            height: 623px;
+
+            .module {
+                float: left;
+                margin-left: 58px;
+                margin-top: 79px;
+                position: relative;
+                margin-right: 58px;
+            }
+
+            .lookmore {
+
+                display: block;
+                height: 36px;
+                width: 140px;
+                background: #ffffff;
+                color: #b4252d;
+                font-weight: bold;
+                font-size: 20px;
+                text-align: center;
+                line-height: 36px;
+                border-radius: 5px;
+                letter-spacing: 3px;
+                position: absolute;
+                left: 18.3%;
+                top: 92%;
+
+            }
+
+            .item {
+                float: left;
+                height: 602px;
+                width: 850px;
+
+
+                .details {
+                    float: left;
+                    background: #f2f2f2;
+                    margin-top: 20px;
+                    overflow: hidden;
+
+
+                    .moresee {
+                        float: left;
+                        background: #ffffff;
+                        list-style: none;
+                        width: 274px;
+                        height: 284px;
+                        text-align: center;
+                        overflow: hidden;
+                        margin-right: 13px;
+                        margin-top: 17px;
+                        position: relative;
+
+                        .mate {
+                            height: 100%;
+                            width: 100%;
+                            background: rgba(0, 0, 0, 0.3);
+                            position: absolute;
+                            display: none;
+
+                            .seemore {
+                                height: 50px;
+                                margin: 0 auto;
+                                width: 100px;
+                                color: #fff;
+                                border: 2px solid #fff;
+                                text-align: center;
+                                line-height: 50px;
+                                margin-top: 120px;
+
+                            }
+                        }
+
+                        .active_price {
+                            font-size: 14px;
+                            font-weight: bold;
+                            letter-spacing: 9px;
+                            color: #af0c19;
+
+                            span {
+                                letter-spacing: 0px;
+                            }
+                        }
+
+                        .DSLR_content {
+                            text-decoration: none;
+
+                            ._name {
+                                color: #000;
+                                text-align: center;
+                                margin-bottom: 26px;
+                                padding-top: 32px;
+                                font-size: 18px;
+                                font-weight: bold;
+                                height: 80px;
+                                box-sizing: border-box;
+                                margin: 0px 20px;
+                            }
+
+                            .old_price {
+                                font-size: 14px;
+                                text-decoration-line: line-through;
+                                color: #b3b3b3;
+                                font-weight: bold;
+                            }
+
+
+
+                            img {
+                                height: 128px;
+                                width: 128px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //专业设备
+        .DVstorm {
+            overflow: hidden;
+            margin-top: 50px;
+            background: url(../img/background1.beb1bda.png) no-repeat;
+            width: 1200px;
+            height: 623px;
+
+
+
+            .module {
+                float: left;
+                margin-left: 58px;
+                margin-top: 79px;
+                position: relative;
+                margin-right: 58px;
+
+                img {
+                    width: 219.99px;
+                }
+            }
+
+            .lookmore {
+
+                display: block;
+                height: 36px;
+                width: 140px;
+                background: #ffffff;
+                color: #b4252d;
+                font-weight: bold;
+                font-size: 20px;
+                text-align: center;
+                line-height: 36px;
+                border-radius: 5px;
+                letter-spacing: 3px;
+                position: absolute;
+                left: 16.3%;
+                top: 92%;
+
+            }
+
+            .item {
+                float: left;
+                height: 602px;
+                width: 850px;
+
+
+                .details {
+                    float: left;
+                    background: #f2f2f2;
+                    margin-top: 20px;
+                    overflow: hidden;
+                    margin-left: 1px;
+
+
+                    .moresee {
+                        position: relative;
+                        float: left;
+                        background: #ffffff;
+                        list-style: none;
+                        width: 274px;
+                        height: 284px;
+                        text-align: center;
+                        overflow: hidden;
+                        margin-right: 13px;
+                        margin-top: 17px;
+
+                        .mate {
+                            height: 100%;
+                            width: 100%;
+                            background: rgba(0, 0, 0, 0.3);
+                            position: absolute;
+                            display: none;
+
+                            .seemore {
+                                height: 50px;
+                                margin: 0 auto;
+                                width: 100px;
+                                color: #fff;
+                                border: 2px solid #fff;
+                                text-align: center;
+                                line-height: 50px;
+                                margin-top: 120px;
+
+                            }
+                        }
+
+                        .active_price {
+                            font-size: 14px;
+                            font-weight: bold;
+                            letter-spacing: 9px;
+                            color: #af0c19;
+
+                            span {
+                                letter-spacing: 0px;
+                            }
+                        }
+
+                        .DSLR_content {
+                            text-decoration: none;
+
+                            ._name {
+                                color: #000;
+                                text-align: center;
+                                margin-bottom: 26px;
+                                padding-top: 32px;
+                                font-size: 18px;
+                                font-weight: bold;
+                                height: 80px;
+                                margin: 0px 20px;
+                                margin: 0px 20px;
+                            }
+
+                            .old_price {
+                                font-size: 14px;
+                                text-decoration-line: line-through;
+                                color: #b3b3b3;
+                                font-weight: bold;
+                            }
+
+
+
+                            img {
+                                height: 128px;
+                                width: 128px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //打印机耗材
+        .material {
+            margin-top: 50px;
+            background: url(../img/background2.49e2643.png);
+            overflow: hidden;
+            width: 1200px;
+            height: 623px;
+
+            .module {
+                float: left;
+                margin-left: 58px;
+                margin-top: 79px;
+                position: relative;
+                margin-right: 58px;
+            }
+
+            .lookmore {
+
+                display: block;
+                height: 36px;
+                width: 140px;
+                background: #ffffff;
+                color: #b4252d;
+                font-weight: bold;
+                font-size: 20px;
+                text-align: center;
+                line-height: 36px;
+                border-radius: 5px;
+                letter-spacing: 3px;
+                position: absolute;
+                left: 18.3%;
+                top: 92%;
+
+            }
+
+            .item {
+                float: left;
+                height: 602px;
+                width: 850px;
+
+
+                .details {
+                    float: left;
+                    background: #f2f2f2;
+                    margin-top: 20px;
+                    overflow: hidden;
+
+
+                    .moresee {
+                        float: left;
+                        background: #ffffff;
+                        list-style: none;
+                        width: 274px;
+                        height: 284px;
+                        text-align: center;
+                        overflow: hidden;
+                        margin-right: 13px;
+                        margin-top: 17px;
+                        position: relative;
+
+                        .mate {
+                            height: 100%;
+                            width: 100%;
+                            background: rgba(0, 0, 0, 0.3);
+                            position: absolute;
+                            display: none;
+
+                            .seemore {
+                                height: 50px;
+                                margin: 0 auto;
+                                width: 100px;
+                                color: #fff;
+                                border: 2px solid #fff;
+                                text-align: center;
+                                line-height: 50px;
+                                margin-top: 120px;
+
+                            }
+                        }
+
+                        .active_price {
+                            font-size: 14px;
+                            font-weight: bold;
+                            letter-spacing: 9px;
+                            color: #af0c19;
+
+                            span {
+                                letter-spacing: 0px;
+                            }
+                        }
+
+                        .DSLR_content {
+                            text-decoration: none;
+
+                            ._name {
+                                color: #000;
+                                text-align: center;
+                                margin-bottom: 26px;
+                                padding-top: 32px;
+                                font-size: 18px;
+                                font-weight: bold;
+                                height: 80px;
+                                box-sizing: border-box;
+                                margin: 0px 20px;
+                            }
+
+                            .old_price {
+                                font-size: 14px;
+                                text-decoration-line: line-through;
+                                color: #b3b3b3;
+                                font-weight: bold;
+
+                            }
+
+
+
+                            img {
+                                height: 128px;
+                                width: 128px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+    //活动专区
+    .promote_sales {
+        padding-top: 56px;
+
+        ul {
+            img {
+                float: left;
+            }
+
+            .new {
+                position: absolute;
+            }
+
+            li {
+                position: relative;
+                float: left;
+                list-style: none;
+                background: #ffffff;
+                overflow: hidden;
+                margin-right: 30px;
+                margin-bottom: 50px;
+
+
+                .goods {
+                    text-decoration: none;
+                    width: 212px;
+                    display: block;
+                    float: left;
+
+                    .font {
+                        height: 60px;
+                        text-align: center;
+                        padding: 0 30px;
+                        margin-bottom: 30px;
+                        margin-top: 20px;
+                        color: #000;
+                        font-weight: bold;
+                        font-size: 15px;
+                    }
+
+
+                    p {
+                        span {
+                            font-size: 14px;
+                            font-weight: bold;
+                        }
+                    }
+
+                    .old_price {
+                        text-decoration-line: line-through;
+                        color: #b3b3b3;
+                        text-align: center;
+                        padding: 3px 0px;
+                        bottom: 0;
+                    }
+
+                    .active_price {
+                        font-weight: bold;
+                        padding: 3px 0px;
+                        color: #af0c19;
+                        letter-spacing: 11px;
+                        text-align: center;
+                        bottom: 0;
+
+                        span {
+                            letter-spacing: 0;
+                        }
+                    }
+
+                    img {
+                        width: 155px;
+                        height: 155px;
+                        padding: 0 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+//展示轮播图
+.recommend {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+
+
+    .left {
+        position: absolute;
+        left: -45px;
+        top: 162px;
+        z-index: 99;
+        border: 0px;
+    }
+
+    .right {
+        position: absolute;
+        left: 1213px;
+        top: 162px;
+        z-index: 99;
+        border: 0px;
+
+    }
+
+
+    h2 {
+        font-size: 32px;
+        text-align: center
+    }
+
+    .center {
+        width: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+
+        .swiper {
+            height: 243px;
+            margin-top: 30px;
+
+            width: 5786px;
+
+
+            .swiper_slide {
+                background: #ffffff;
+                width: 270.5px;
+                height: 243px;
+                padding-left: 16px;
+                position: relative;
+                float: left;
+                list-style: none;
+                margin-right: 18px;
+
+                .old_price {
+                    font-size: 14px;
+                    text-decoration-line: line-through;
+                    color: #b3b3b3;
+                    font-weight: bold;
+                    text-align: left;
+                }
+
+                .active_price {
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #af0c19;
+                    text-align: left;
+                }
+
+                .text {
+                    color: #000;
+                    font-weight: bold;
+                    font-size: 17px;
+                    height: 40px;
+                    margin-top: 10px;
+                    line-height: 23px;
+                    margin-bottom: 16px;
+                    margin-left: 12px;
+                }
+
+                img {
+                    width: 120px;
+                    height: 120px;
+                    position: absolute;
+                    right: 3%;
+                }
+
+                .look {
+                    display: block;
+                    width: 68px;
+                    height: 14px;
+                    background: url(../img/morebtn.6eb7b02.png) no-repeat right 5px;
+                    position: absolute;
+                    font-size: 13px;
+                    color: #b83e43;
+                    bottom: 12px;
+                    left: 15%;
+                }
+            }
+        }
+    }
+}

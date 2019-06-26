@@ -1,0 +1,55 @@
+{
+    "name": "火热商品",
+    "list": [{
+            "id": "shop1",
+            "name": "EOS 200D II 白色套机 EF-S 18-55mm f/4-5.6 IS STM",
+            "src": "img/shop/24-105111 (1).jpg",
+            "oldprice": "0",
+            "newprice": "￥16198.00"
+        },
+        {
+            "id": "shop2",
+            "name": "佳能（Canon）高品质照片一体机 实用版 PIXMA TS6280",
+            "src": "img/shop/7.jpg",
+            "oldprice": "￥1888.00",
+            "newprice": "0"
+        },
+        {
+            "id": "shop3",
+            "name": "EOS 200D II 银色套机 EF-S 18-55mm f/4-5.6 IS STM",
+            "src": "img/shop/3.jpg",
+            "oldprice": "0",
+            "newprice": "￥4499.00"
+        },
+        {
+            "id": "shop4",
+            "name": "EOS RP机身+RF35mm F1.8 MACRO IS STM限定套装",
+            "src": "img/shop/135.jpg",
+            "oldprice": "0",
+            "newprice": "￥12498.00"
+        },
+        {
+            "id": "shop5",
+            "name": "EOS RP机身+EF 24-105mm f/3.5-5.6 IS STM限定套装",
+            "src": "img/shop/1234.jpg",
+            "oldprice": "0",
+            "newprice": "￥12648.00"
+        },
+        {
+            "id": "shop6",
+            "name": "EOS RP 24-105USM套机+手柄EG-E1(蓝) 限定套装",
+            "src": "img/shop/1蓝色.jpg",
+            "oldprice": "0",
+            "newprice": "￥16768.00"
+        },
+        {
+            "id": "shop7",
+            "name": "RF85mm F1 .2 L USM ",
+            "src": "img/shop/1 (1).jpg",
+            "oldprice": "￥18749.00",
+            "newprice": "0"
+        }
+
+    ]
+
+}

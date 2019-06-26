@@ -1,0 +1,47 @@
+{
+    "../img/imgs/4.png": {
+        "list": [{
+                "id": "shop19",
+                "name": "LEGRIAHF R806 黑色",
+                "src": "../img/imgs/sx1.jpg",
+                "oldprice": ":￥2549.00",
+                "newprice": ":￥2399.00"
+            },
+
+            {
+                "id": "shop20",
+                "name": "HF GX10",
+                "src": "../img/imgs/sx2.jpg",
+                "oldprice": ":￥20899.00",
+                "newprice": ":￥12999.00"
+            },
+            {
+                "id": "shop21",
+                "name": "LEGRIAHF G26",
+                "src": "../img/imgs/sx3.png",
+                "oldprice": ":￥7340.00",
+                "newprice": ":￥6999.00"
+            },
+            {
+                "id": "shop22",
+                "name": "LEGRIAHF R806 白色",
+                "src": "../img/imgs/sx4.jpg",
+                "oldprice": ":￥2549.00",
+                "newprice": ":￥2399.00"
+            }, {
+                "id": "shop23",
+                "name": "LEGRIAHF R86",
+                "src": "../img/imgs/sx5.png",
+                "oldprice": ":￥3149.00",
+                "newprice": ":￥2999.00"
+            }, {
+                "id": "shop24",
+                "name": "锂电池 BP-820",
+                "src": "../img/imgs/sx6.png",
+                "oldprice": ":￥799.00",
+                "newprice": ":￥799.00"
+            }
+        ]
+
+    }
+}

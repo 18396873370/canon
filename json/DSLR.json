@@ -1,0 +1,47 @@
+{
+    "../img/imgs/1.png": {
+        "list": [{
+                "id": "shop1",
+                "name": "EOS 6D Mark II 套机 EF 24-105mm f/4L IS II USM",
+                "src": "../img/imgs/df1.jpg",
+                "oldprice": ":￥17599.00",
+                "newprice": ":￥16749.00"
+            },
+
+            {
+                "id": "shop2",
+                "name": "EOS 200D 银色套机 EF-S 18-55mm f/4-5.6 IS STM",
+                "src": "../img/imgs/df2.jpg",
+                "oldprice": ":￥4440.00",
+                "newprice": ":￥4199.00"
+            },
+            {
+                "id": "shop3",
+                "name": "EOS R 套机 RF24-105mm F4 L IS USM",
+                "src": "../img/imgs/df3.jpg",
+                "oldprice": ":￥23998.00",
+                "newprice": ":￥22198.00"
+            },
+            {
+                "id": "shop4",
+                "name": "EOS RP 套机RF24-105mm F4 L IS USM",
+                "src": "../img/imgs/df4.jpg",
+                "oldprice": ":￥17537.00",
+                "newprice": ":￥16198.00"
+            }, {
+                "id": "shop5",
+                "name": "EOS 5 D Mark IV 套机 EF 24 - 105 mm f / 4 L IS II USM ",
+                "src": "../img/imgs/df5.jpg",
+                "oldprice": ":￥28099.00",
+                "newprice": ":￥25749.00"
+            }, {
+                "id": "shop6",
+                "name": "EOS 800D 套机 EF-S 18-135mm f/3.5-5.6 IS STM",
+                "src": "../img/imgs/df6.jpg",
+                "oldprice": ":￥7449.00",
+                "newprice": ":￥7049.00"
+            }
+        ]
+
+    }
+}

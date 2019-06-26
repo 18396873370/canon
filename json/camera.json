@@ -1,0 +1,47 @@
+{
+    "../img/imgs/2.png": {
+        "list": [{
+                "id": "shop31",
+                "name": "PowerShot G1X Mark III",
+                "src": "../img/imgs/sm1.png",
+                "oldprice": ":￥7999.00",
+                "newprice": ":￥6999.00"
+            },
+
+            {
+                "id": "shop32",
+                "name": "PowerShot G7X Mark II",
+                "src": "../img/imgs/sm2.jpg",
+                "oldprice": ":￥4599.00",
+                "newprice": ":￥3999.00"
+            },
+            {
+                "id": "shop33",
+                "name": "PowerShot G9X Mark II 银色",
+                "src": "../img/imgs/sm3.png",
+                "oldprice": ":￥3449.00",
+                "newprice": ":￥2999.00"
+            },
+            {
+                "id": "shop34",
+                "name": "IXUS285 HS 黑色",
+                "src": "../img/imgs/sm4.jpg",
+                "oldprice": ":￥1299.00",
+                "newprice": ":￥1099.00"
+            }, {
+                "id": "shop35",
+                "name": "PowerShot SX740 HS 黑色",
+                "src": "../img/imgs/sm5.jpg",
+                "oldprice": ":￥2999.00",
+                "newprice": ":￥2599.00"
+            }, {
+                "id": "shop36",
+                "name": "PowerShot SX70HS",
+                "src": "../img/imgs/sm6.jpg",
+                "oldprice": ":￥3999.00",
+                "newprice": ":￥3499.00"
+            }
+        ]
+
+    }
+}

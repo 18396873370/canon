@@ -1,0 +1,47 @@
+{
+    "../img/imgs/catalog.png": {
+        "list": [{
+                "id": "shop37",
+                "name": "Cinema EOS摄影机C100MKII",
+                "src": "../img/imgs/zs1.jpg",
+                "oldprice": ":￥23815.00",
+                "newprice": ":￥21650.00"
+            },
+
+            {
+                "id": "shop38",
+                "name": "Cinema EOS摄影机C700",
+                "src": "../img/imgs/zs2.jpg",
+                "oldprice": ":￥218900.00",
+                "newprice": ":￥199000.00"
+            },
+            {
+                "id": "shop39",
+                "name": "专业数码摄像机XF705",
+                "src": "../img/imgs/zs3.jpg",
+                "oldprice": ":￥49500.00",
+                "newprice": ":￥45000.00"
+            },
+            {
+                "id": "shop40",
+                "name": "专业数码摄像机XA45",
+                "src": "../img/imgs/zs4.jpg",
+                "oldprice": ":￥17600.00",
+                "newprice": ":￥16000.00"
+            }, {
+                "id": "shop41",
+                "name": "专业数码摄像机XF400",
+                "src": "../img/imgs/zs5.jpg",
+                "oldprice": ":￥20350.00",
+                "newprice": ":￥18500.00"
+            }, {
+                "id": "shop42",
+                "name": "新概念数码摄像机XC15",
+                "src": "../img/imgs/zs6.jpg",
+                "oldprice": ":￥19250.00",
+                "newprice": ":￥17500.00"
+            }
+        ]
+
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "../img/imgs/3.png": {
+        "list": [{
+                "id": "shop13",
+                "name": "LBP2900+",
+                "src": "../img/imgs/yt1.png",
+                "oldprice": ":￥1580.00",
+                "newprice": ":￥1580.00"
+            },
+
+            {
+                "id": "shop14",
+                "name": "无线家用打印机 智能型TS308",
+                "src": "../img/imgs/yt2.png",
+                "oldprice": ":￥398.00",
+                "newprice": ":￥398.00"
+            },
+            {
+                "id": "shop15",
+                "name": "实用无线一体机MG3680 黑色",
+                "src": "../img/imgs/yt3.png",
+                "oldprice": ":￥888.00",
+                "newprice": ":￥888.00"
+            },
+            {
+                "id": "shop16",
+                "name": "学生一体机 无线型TS3180",
+                "src": "../img/imgs/yt4.png",
+                "oldprice": ":￥588.00",
+                "newprice": ":￥588.00"
+            }, {
+                "id": "shop17",
+                "name": "加墨式高容量一体机G2800",
+                "src": "../img/imgs/yt5.png",
+                "oldprice": ":￥1358.00",
+                "newprice": ":￥1358.00"
+            }, {
+                "id": "shop18",
+                "name": "加墨式高容量一体机G2800",
+                "src": "../img/imgs/yt6.jpg",
+                "oldprice": ":￥1740.00",
+                "newprice": ":￥1740.00"
+            }
+        ]
+
+    }
+}

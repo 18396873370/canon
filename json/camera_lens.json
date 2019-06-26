@@ -1,0 +1,47 @@
+{
+    "../img/imgs/5.png": {
+        "list": [{
+                "id": "shop7",
+                "name": "EF 24-70mm f/2.8L II USM",
+                "src": "../img/imgs/jt1.jpg",
+                "oldprice": ":￥13699.00",
+                "newprice": ":￥12949.00"
+            },
+
+            {
+                "id": "shop8",
+                "name": "EF 16-35mm f/2.8L III USM",
+                "src": "../img/imgs/jt2.jpg",
+                "oldprice": ":￥15399.00",
+                "newprice": ":￥14549.00"
+            },
+            {
+                "id": "shop9",
+                "name": "EF 50mm f/1.8 STM",
+                "src": "../img/imgs/jt3.jpg",
+                "oldprice": ":￥849.00",
+                "newprice": ":￥799.00"
+            },
+            {
+                "id": "shop10",
+                "name": "RF24-105mm F4 L IS USM",
+                "src": "../img/imgs/jt4.jpg",
+                "oldprice": ":￥7649.00",
+                "newprice": ":￥7199.00"
+            }, {
+                "id": "shop11",
+                "name": "RF50mm F1.2 L USM",
+                "src": "../img/imgs/jt5.jpg",
+                "oldprice": ":￥15899.00",
+                "newprice": ":￥14999.00"
+            }, {
+                "id": "shop12",
+                "name": "EF 70-200mm f/2.8L IS III USM",
+                "src": "../img/imgs/jt6.jpg",
+                "oldprice": ":￥15949.00",
+                "newprice": ":￥15049.00"
+            }
+        ]
+
+    }
+}
