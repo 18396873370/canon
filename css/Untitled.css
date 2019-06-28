@@ -151,6 +151,7 @@
   text-align: center;
   line-height: 50px;
   margin-top: 120px;
+  display: block;
 }
 
 .content .moreshop .DSLR .item .details .moresee .active_price {
@@ -279,6 +280,7 @@
   text-align: center;
   line-height: 50px;
   margin-top: 120px;
+  display: block;
 }
 
 .content .moreshop .camera_lens .item .details .moresee .DSLR_content {
@@ -390,6 +392,7 @@
   text-align: center;
   line-height: 50px;
   margin-top: 120px;
+  display: block;
 }
 
 .content .moreshop .imac .item .details .moresee .active_price {
@@ -507,6 +510,7 @@
   text-align: center;
   line-height: 50px;
   margin-top: 120px;
+  display: block;
 }
 
 .content .moreshop .DVR .item .details .moresee .active_price {
@@ -629,6 +633,7 @@
   text-align: center;
   line-height: 50px;
   margin-top: 120px;
+  display: block;
 }
 
 .content .moreshop .printer .item .details .moresee .active_price {
@@ -746,6 +751,7 @@
   text-align: center;
   line-height: 50px;
   margin-top: 120px;
+  display: block;
 }
 
 .content .moreshop .camera .item .details .moresee .active_price {
@@ -868,6 +874,7 @@
   text-align: center;
   line-height: 50px;
   margin-top: 120px;
+  display: block;
 }
 
 .content .moreshop .DVstorm .item .details .moresee .active_price {
@@ -985,6 +992,7 @@
   text-align: center;
   line-height: 50px;
   margin-top: 120px;
+  display: block;
 }
 
 .content .moreshop .material .item .details .moresee .active_price {

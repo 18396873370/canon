@@ -1,28 +1,28 @@
 {
     "name": "促销",
     "list": [{
-            "id": "shop1",
+            "id": "shop51",
             "name": "EOS 200D II 白色套机 EF-S 18-55mm f/4-5.6 IS STM",
             "src": "img/shop/1.jpg",
             "oldprice": "￥4699.00",
             "newprice": "￥4499.00"
         },
         {
-            "id": "shop2",
+            "id": "shop1",
             "name": "EOS 6 D Mark II 套机 EF 24 - 105 mm f / 4 L IS II USM ",
             "src": "img/shop/6D.jpg",
             "oldprice": "￥17599.00",
             "newprice": "￥16749.00"
         },
         {
-            "id": "shop3",
+            "id": "shop56",
             "name": "佳能手机照片打印机 瞬彩 PV-123 玫瑰金",
             "src": "img/shop/J金.jpg",
             "oldprice": "￥998.00",
             "newprice": "￥1260.00"
         },
         {
-            "id": "shop4",
+            "id": "shop55",
             "name": "RF85mm F1.2 L USM",
             "src": "img/shop/1 (1).jpg",
             "oldprice": "￥18749.00",

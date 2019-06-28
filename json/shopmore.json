@@ -1,362 +1,398 @@
-{
-    "../img/imgs/1.png": {
-        "list": [{
-                "id": "shop1",
-                "name": "EOS 6D Mark II 套机 EF 24-105mm f/4L IS II USM",
-                "src": "../img/imgs/df1.png",
-                "oldprice": ":￥17599.00",
-                "newprice": ":￥16749.00"
-            },
-
-            {
-                "id": "shop2",
-                "name": "EOS 200D 银色套机 EF-S 18-55mm f/4-5.6 IS STM",
-                "src": "../img/imgs/df2.png",
-                "oldprice": ":￥4440.00",
-                "newprice": ":￥4199.00"
-            },
-            {
-                "id": "shop3",
-                "name": "EOS R 套机 RF24-105mm F4 L IS USM",
-                "src": "../img/imgs/df3.png",
-                "oldprice": ":￥23998.00",
-                "newprice": ":￥22198.00"
-            },
-            {
-                "id": "shop4",
-                "name": "EOS RP 套机RF24-105mm F4 L IS USM",
-                "src": "../img/imgs/df4.png",
-                "oldprice": ":￥17537.00",
-                "newprice": ":￥16198.00"
-            }, {
-                "id": "shop5",
-                "name": "EOS 5 D Mark IV 套机 EF 24 - 105 mm f / 4 L IS II USM ",
-                "src": "../img/imgs/df5.png",
-                "oldprice": ":￥28099.00",
-                "newprice": ":￥25749.00"
-            }, {
-                "id": "shop6",
-                "name": "EOS 800D 套机 EF-S 18-135mm f/3.5-5.6 IS STM",
-                "src": "../img/imgs/df6.png",
-                "oldprice": ":￥7449.00",
-                "newprice": ":￥7049.00"
-            }
-        ]
-
+[{
+        "id": "shop1",
+        "name": "EOS 6D Mark II 套机 EF 24-105mm f/4L IS II USM",
+        "src": "../img/imgs/df1.jpg",
+        "oldprice": "￥17599.00",
+        "newprice": "￥16749.00"
+    }, {
+        "id": "shop2",
+        "name": "EOS 200D 银色套机 EF-S 18-55mm f/4-5.6 IS STM",
+        "src": "../img/imgs/df2.jpg",
+        "oldprice": "￥4440.00",
+        "newprice": "￥4199.00"
+    }, {
+        "id": "shop3",
+        "name": "EOS R 套机 RF24-105mm F4 L IS USM",
+        "src": "../img/imgs/df3.jpg",
+        "oldprice": "￥23998.00",
+        "newprice": "￥22198.00"
+    }, {
+        "id": "shop4",
+        "name": "EOS RP 套机RF24-105mm F4 L IS USM",
+        "src": "../img/imgs/df4.jpg",
+        "oldprice": "￥17537.00",
+        "newprice": "￥16198.00"
+    }, {
+        "id": "shop5",
+        "name": "EOS 5 D Mark IV 套机 EF 24 - 105 mm f / 4 L IS II USM ",
+        "src": "../img/imgs/df5.jpg",
+        "oldprice": "￥28099.00",
+        "newprice": "￥25749.00"
+    }, {
+        "id": "shop6",
+        "name": "EOS 800D 套机 EF-S 18-135mm f/3.5-5.6 IS STM",
+        "src": "../img/imgs/df6.jpg",
+        "oldprice": "￥7449.00",
+        "newprice": "￥7049.00"
+    }, {
+        "id": "shop7",
+        "name": "EF 24-70mm f/2.8L II USM",
+        "src": "../img/imgs/jt1.jpg",
+        "oldprice": "￥13699.00",
+        "newprice": "￥12949.00"
     },
-    "../img/imgs/5.png": {
-        "list": [{
-                "id": "shop7",
-                "name": "EF 24-70mm f/2.8L II USM",
-                "src": "../img/imgs/jt1.png",
-                "oldprice": ":￥13699.00",
-                "newprice": ":￥12949.00"
-            },
 
-            {
-                "id": "shop8",
-                "name": "EF 16-35mm f/2.8L III USM",
-                "src": "../img/imgs/jt2.png",
-                "oldprice": ":￥15399.00",
-                "newprice": ":￥14549.00"
-            },
-            {
-                "id": "shop9",
-                "name": "EF 50mm f/1.8 STM",
-                "src": "../img/imgs/jt3.png",
-                "oldprice": ":￥849.00",
-                "newprice": ":￥799.00"
-            },
-            {
-                "id": "shop10",
-                "name": "RF24-105mm F4 L IS USM",
-                "src": "../img/imgs/jt4.png",
-                "oldprice": ":￥7649.00",
-                "newprice": ":￥7199.00"
-            }, {
-                "id": "shop11",
-                "name": "RF50mm F1.2 L USM",
-                "src": "../img/imgs/jt5.png",
-                "oldprice": ":￥15899.00",
-                "newprice": ":￥14999.00"
-            }, {
-                "id": "shop12",
-                "name": "EF 70-200mm f/2.8L IS III USM",
-                "src": "../img/imgs/jt6.png",
-                "oldprice": ":￥15949.00",
-                "newprice": ":￥15049.00"
-            }
-        ]
-
+    {
+        "id": "shop8",
+        "name": "EF 16-35mm f/2.8L III USM",
+        "src": "../img/imgs/jt2.jpg",
+        "oldprice": "￥15399.00",
+        "newprice": "￥14549.00"
+    }, {
+        "id": "shop9",
+        "name": "EF 50mm f/1.8 STM",
+        "src": "../img/imgs/jt3.jpg",
+        "oldprice": "￥849.00",
+        "newprice": "￥799.00"
+    }, {
+        "id": "shop10",
+        "name": "RF24-105mm F4 L IS USM",
+        "src": "../img/imgs/jt4.jpg",
+        "oldprice": "￥7649.00",
+        "newprice": "￥7199.00"
+    }, {
+        "id": "shop11",
+        "name": "RF50mm F1.2 L USM",
+        "src": "../img/imgs/jt5.jpg",
+        "oldprice": "￥15899.00",
+        "newprice": "￥14999.00"
+    }, {
+        "id": "shop12",
+        "name": "EF 70-200mm f/2.8L IS III USM",
+        "src": "../img/imgs/jt6.jpg",
+        "oldprice": "￥15949.00",
+        "newprice": "￥15049.00"
+    }, {
+        "id": "shop13",
+        "name": "LBP2900+",
+        "src": "../img/imgs/yt1.png",
+        "oldprice": "￥1580.00",
+        "newprice": "￥1580.00"
     },
-    "../img/imgs/3.png": {
-        "list": [{
-                "id": "shop13",
-                "name": "LBP2900+",
-                "src": "../img/imgs/yt1.png",
-                "oldprice": ":￥1580.00",
-                "newprice": ":￥1580.00"
-            },
 
-            {
-                "id": "shop14",
-                "name": "无线家用打印机 智能型TS308",
-                "src": "../img/imgs/yt2.png",
-                "oldprice": ":￥398.00",
-                "newprice": ":￥398.00"
-            },
-            {
-                "id": "shop15",
-                "name": "实用无线一体机MG3680 黑色",
-                "src": "../img/imgs/yt3.png",
-                "oldprice": ":￥888.00",
-                "newprice": ":￥888.00"
-            },
-            {
-                "id": "shop16",
-                "name": "学生一体机 无线型TS3180",
-                "src": "../img/imgs/yt4.png",
-                "oldprice": ":￥588.00",
-                "newprice": ":￥588.00"
-            }, {
-                "id": "shop17",
-                "name": "加墨式高容量一体机G2800",
-                "src": "../img/imgs/yt5.png",
-                "oldprice": ":￥1358.00",
-                "newprice": ":￥1358.00"
-            }, {
-                "id": "shop18",
-                "name": "加墨式高容量一体机G2800",
-                "src": "../img/imgs/yt6.png",
-                "oldprice": ":￥1740.00",
-                "newprice": ":￥1740.00"
-            }
-        ]
-
+    {
+        "id": "shop14",
+        "name": "无线家用打印机 智能型TS308",
+        "src": "../img/imgs/yt2.png",
+        "oldprice": "￥398.00",
+        "newprice": "￥398.00"
+    }, {
+        "id": "shop15",
+        "name": "实用无线一体机MG3680 黑色",
+        "src": "../img/imgs/yt3.png",
+        "oldprice": "￥888.00",
+        "newprice": "￥888.00"
+    }, {
+        "id": "shop16",
+        "name": "学生一体机 无线型TS3180",
+        "src": "../img/imgs/yt4.png",
+        "oldprice": "￥588.00",
+        "newprice": "￥588.00"
+    }, {
+        "id": "shop17",
+        "name": "加墨式高容量一体机G2800",
+        "src": "../img/imgs/yt5.png",
+        "oldprice": "￥1358.00",
+        "newprice": "￥1358.00"
+    }, {
+        "id": "shop18",
+        "name": "加墨式高容量一体机G2800",
+        "src": "../img/imgs/yt6.jpg",
+        "oldprice": "￥1740.00",
+        "newprice": "￥1740.00"
+    }, {
+        "id": "shop19",
+        "name": "LEGRIAHF R806 黑色",
+        "src": "../img/imgs/sx1.jpg",
+        "oldprice": "￥2549.00",
+        "newprice": "￥2399.00"
+    }, {
+        "id": "shop20",
+        "name": "HF GX10",
+        "src": "../img/imgs/sx2.jpg",
+        "oldprice": "￥20899.00",
+        "newprice": "￥12999.00"
+    }, {
+        "id": "shop21",
+        "name": "LEGRIAHF G26",
+        "src": "../img/imgs/sx3.jpg",
+        "oldprice": "￥7340.00",
+        "newprice": "￥6999.00"
+    }, {
+        "id": "shop22",
+        "name": "LEGRIAHF R806 白色",
+        "src": "../img/imgs/sx4.jpg",
+        "oldprice": "￥2549.00",
+        "newprice": "￥2399.00"
+    }, {
+        "id": "shop23",
+        "name": "LEGRIAHF R86",
+        "src": "../img/imgs/sx5.png",
+        "oldprice": "￥3149.00",
+        "newprice": "￥2999.00"
+    }, {
+        "id": "shop24",
+        "name": "锂电池 BP-820",
+        "src": "../img/imgs/sx6.png",
+        "oldprice": "￥799.00",
+        "newprice": "￥799.00"
+    }, {
+        "id": "shop25",
+        "name": "SELPHY CP1300 白色",
+        "src": "../img/imgs/dy1.jpg",
+        "oldprice": "￥1049.00",
+        "newprice": "￥899.00"
+    }, {
+        "id": "shop26",
+        "name": "SELPHY CP1300 粉色",
+        "src": "../img/imgs/dy2.jpg",
+        "oldprice": "￥1049.00",
+        "newprice": "￥899.00"
+    }, {
+        "id": "shop27",
+        "name": "彩色墨水/纸张组合 KC-36IP(卡片尺寸)",
+        "src": "../img/imgs/dy3.png",
+        "oldprice": "￥99.00",
+        "newprice": "￥99.00"
+    }, {
+        "id": "shop28",
+        "name": "彩色墨水/纸张组合 RP-108",
+        "src": "../img/imgs/dy4.png",
+        "oldprice": "￥249.00",
+        "newprice": "￥249.00"
+    }, {
+        "id": "shop29",
+        "name": "卡片尺寸纸盒 PCC-CP400",
+        "src": "../img/imgs/dy5.png",
+        "oldprice": "￥99.00",
+        "newprice": "￥99.00"
+    }, {
+        "id": "shop30",
+        "name": "卡片尺寸纸盒 PCC-CP400",
+        "src": "../img/imgs/dy6.jpg",
+        "oldprice": "￥1248.00",
+        "newprice": "￥1098.00"
+    }, {
+        "id": "shop31",
+        "name": "PowerShot G1X Mark III",
+        "src": "../img/imgs/sm1.png",
+        "oldprice": "￥7999.00",
+        "newprice": "￥6999.00"
+    }, {
+        "id": "shop32",
+        "name": "PowerShot G7X Mark II",
+        "src": "../img/imgs/sm2.jpg",
+        "oldprice": "￥4599.00",
+        "newprice": "￥3999.00"
+    }, {
+        "id": "shop33",
+        "name": "PowerShot G9X Mark II 银色",
+        "src": "../img/imgs/sm3.png",
+        "oldprice": "￥3449.00",
+        "newprice": "￥2999.00"
+    }, {
+        "id": "shop34",
+        "name": "IXUS285 HS 黑色",
+        "src": "../img/imgs/sm4.jpg",
+        "oldprice": "￥1299.00",
+        "newprice": "￥1099.00"
+    }, {
+        "id": "shop35",
+        "name": "PowerShot SX740 HS 黑色",
+        "src": "../img/imgs/sm5.jpg",
+        "oldprice": "￥2999.00",
+        "newprice": "￥2599.00"
+    }, {
+        "id": "shop36",
+        "name": "PowerShot SX70HS",
+        "src": "../img/imgs/sm6.jpg",
+        "oldprice": "￥3999.00",
+        "newprice": "￥3499.00"
+    }, {
+        "id": "shop37",
+        "name": "Cinema EOS摄影机C100MKII",
+        "src": "../img/imgs/zs1.jpg",
+        "oldprice": "￥23815.00",
+        "newprice": "￥21650.00"
+    }, {
+        "id": "shop38",
+        "name": "Cinema EOS摄影机C700",
+        "src": "../img/imgs/zs2.jpg",
+        "oldprice": "￥218900.00",
+        "newprice": "￥199000.00"
+    }, {
+        "id": "shop39",
+        "name": "专业数码摄像机XF705",
+        "src": "../img/imgs/zs3.jpg",
+        "oldprice": "￥49500.00",
+        "newprice": "￥45000.00"
+    }, {
+        "id": "shop40",
+        "name": "专业数码摄像机XA45",
+        "src": "../img/imgs/zs4.jpg",
+        "oldprice": "￥17600.00",
+        "newprice": "￥16000.00"
+    }, {
+        "id": "shop41",
+        "name": "专业数码摄像机XF400",
+        "src": "../img/imgs/zs5.jpg",
+        "oldprice": "￥20350.00",
+        "newprice": "￥18500.00"
+    }, {
+        "id": "shop42",
+        "name": "新概念数码摄像机XC15",
+        "src": "../img/imgs/zs6.jpg",
+        "oldprice": "￥19250.00",
+        "newprice": "￥17500.00"
+    }, {
+        "id": "shop43",
+        "name": "CRG 307 C",
+        "src": "../img/imgs/hc1.jpg",
+        "oldprice": "￥877.00",
+        "newprice": "￥877.00"
+    }, {
+        "id": "shop44",
+        "name": "PG-845S",
+        "src": "../img/imgs/hc2.jpg",
+        "oldprice": "￥90.00",
+        "newprice": "￥90.00"
+    }, {
+        "id": "shop45",
+        "name": "GP-508 4xA6 (20)",
+        "src": "../img/imgs/hc3.png",
+        "oldprice": "￥14.00",
+        "newprice": "￥14.00"
+    }, {
+        "id": "shop46",
+        "name": "佳能（Canon）可打印指甲贴 NL-101",
+        "src": "../img/imgs/hc4.jpg",
+        "oldprice": "￥88.00",
+        "newprice": "￥88.00"
+    }, {
+        "id": "shop47",
+        "name": "Canon/佳能 890 墨水瓶套装（适用G1810、G2810、G3810、G4810）",
+        "src": "../img/imgs/hc5.jpg",
+        "oldprice": "￥240.00",
+        "newprice": "￥225.00"
+    }, {
+        "id": "shop48",
+        "name": "佳能 880/881XL 墨盒套装（适用TS9180、TR8580）",
+        "src": "../img/imgs/hc6.jpg",
+        "oldprice": "￥788.00",
+        "newprice": "￥709.00"
+    }, {
+        "id": "shop49",
+        "name": "EOS RP 套机RF24-105mm F4 L IS USM",
+        "src": "../img/shop/24-105111 (1).jpg",
+        "oldprice": "￥17537.00",
+        "newprice": "￥16198.00"
     },
-    "../img/imgs/4.png": {
-        "list": [{
-                "id": "shop19",
-                "name": "LEGRIAHF R806 黑色",
-                "src": "../img/imgs/sx1.png",
-                "oldprice": ":￥2549.00",
-                "newprice": ":￥2399.00"
-            },
-
-            {
-                "id": "shop20",
-                "name": "HF GX10",
-                "src": "../img/imgs/sx2.png",
-                "oldprice": ":￥20899.00",
-                "newprice": ":￥12999.00"
-            },
-            {
-                "id": "shop21",
-                "name": "LEGRIAHF G26",
-                "src": "../img/imgs/sx3.png",
-                "oldprice": ":￥7340.00",
-                "newprice": ":￥6999.00"
-            },
-            {
-                "id": "shop22",
-                "name": "LEGRIAHF R806 白色",
-                "src": "../img/imgs/sx4.png",
-                "oldprice": ":￥2549.00",
-                "newprice": ":￥2399.00"
-            }, {
-                "id": "shop23",
-                "name": "LEGRIAHF R86",
-                "src": "../img/imgs/sx5.png",
-                "oldprice": ":￥3149.00",
-                "newprice": ":￥2999.00"
-            }, {
-                "id": "shop24",
-                "name": "锂电池 BP-820",
-                "src": "../img/imgs/sx6.png",
-                "oldprice": ":￥799.00",
-                "newprice": ":￥799.00"
-            }
-        ]
-
+    {
+        "id": "shop50",
+        "name": "佳能（Canon）高品质照片一体机 实用版 PIXMA TS6280",
+        "src": "../img/shop/7.jpg",
+        "oldprice": "￥1888.00",
+        "newprice": "￥1888.00"
     },
-    "../img/imgs/9.png": {
-        "list": [{
-                "id": "shop25",
-                "name": "SELPHY CP1300 白色",
-                "src": "../img/imgs/df1.png",
-                "oldprice": ":￥1049.00",
-                "newprice": ":￥899.00"
-            },
-
-            {
-                "id": "shop26",
-                "name": "SELPHY CP1300 粉色",
-                "src": "../img/imgs/df2.png",
-                "oldprice": ":￥1049.00",
-                "newprice": ":￥899.00"
-            },
-            {
-                "id": "shop27",
-                "name": "彩色墨水/纸张组合 KC-36IP(卡片尺寸)",
-                "src": "../img/imgs/df3.png",
-                "oldprice": ":￥99.00",
-                "newprice": ":￥99.00"
-            },
-            {
-                "id": "shop28",
-                "name": "彩色墨水/纸张组合 RP-108",
-                "src": "../img/imgs/df4.png",
-                "oldprice": ":￥249.00",
-                "newprice": ":￥249.00"
-            }, {
-                "id": "shop29",
-                "name": "卡片尺寸纸盒 PCC-CP400",
-                "src": "../img/imgs/df5.png",
-                "oldprice": ":￥99.00",
-                "newprice": ":￥99.00"
-            }, {
-                "id": "shop30",
-                "name": "卡片尺寸纸盒 PCC-CP400",
-                "src": "../img/imgs/df6.png",
-                "oldprice": ":￥1248.00",
-                "newprice": ":￥1098.00"
-            }
-        ]
-
+    {
+        "id": "shop51",
+        "name": "EOS 200D II 银色套机 EF-S 18-55mm f/4-5.6 IS STM",
+        "src": "../img/shop/3.jpg",
+        "oldprice": "￥4699.00",
+        "newprice": "￥4499.00"
     },
-    "../img/imgs/2.png": {
-        "list": [{
-                "id": "shop31",
-                "name": "PowerShot G1X Mark III",
-                "src": "../img/imgs/sm1.png",
-                "oldprice": ":￥7999.00",
-                "newprice": ":￥6999.00"
-            },
-
-            {
-                "id": "shop32",
-                "name": "PowerShot G7X Mark II",
-                "src": "../img/imgs/sm2.png",
-                "oldprice": ":￥4599.00",
-                "newprice": ":￥3999.00"
-            },
-            {
-                "id": "shop33",
-                "name": "PowerShot G9X Mark II 银色",
-                "src": "../img/imgs/sm3.png",
-                "oldprice": ":￥3449.00",
-                "newprice": ":￥2999.00"
-            },
-            {
-                "id": "shop34",
-                "name": "IXUS285 HS 黑色",
-                "src": "../img/imgs/sm4.png",
-                "oldprice": ":￥1299.00",
-                "newprice": ":￥1099.00"
-            }, {
-                "id": "shop35",
-                "name": "PowerShot SX740 HS 黑色",
-                "src": "../img/imgs/sm5.png",
-                "oldprice": ":￥2999.00",
-                "newprice": ":￥2599.00"
-            }, {
-                "id": "shop36",
-                "name": "PowerShot SX70HS",
-                "src": "../img/imgs/sm6.png",
-                "oldprice": ":￥3999.00",
-                "newprice": ":￥3499.00"
-            }
-        ]
-
+    {
+        "id": "shop52",
+        "name": "EOS RP机身+RF35mm F1.8 MACRO IS STM限定套装",
+        "src": "../img/shop/135.jpg",
+        "oldprice": "￥13637.00",
+        "newprice": "￥12498.00"
     },
-    "../img/imgs/catalog.png": {
-        "list": [{
-                "id": "shop37",
-                "name": "Cinema EOS摄影机C100MKII",
-                "src": "../img/imgs/df1.png",
-                "oldprice": ":￥23815.00",
-                "newprice": ":￥21650.00"
-            },
-
-            {
-                "id": "shop38",
-                "name": "Cinema EOS摄影机C700",
-                "src": "../img/imgs/df2.png",
-                "oldprice": ":￥218900.00",
-                "newprice": ":￥199000.00"
-            },
-            {
-                "id": "shop39",
-                "name": "专业数码摄像机XF705",
-                "src": "../img/imgs/df3.png",
-                "oldprice": ":￥49500.00",
-                "newprice": ":￥45000.00"
-            },
-            {
-                "id": "shop40",
-                "name": "专业数码摄像机XA45",
-                "src": "../img/imgs/df4.png",
-                "oldprice": ":￥17600.00",
-                "newprice": ":￥16000.00"
-            }, {
-                "id": "shop41",
-                "name": "专业数码摄像机XF400",
-                "src": "../img/imgs/df5.png",
-                "oldprice": ":￥20350.00",
-                "newprice": ":￥18500.00"
-            }, {
-                "id": "shop42",
-                "name": "新概念数码摄像机XC15",
-                "src": "../img/imgs/df6.png",
-                "oldprice": ":￥19250.00",
-                "newprice": ":￥17500.00"
-            }
-        ]
-
+    {
+        "id": "shop53",
+        "name": "EOS RP机身+EF 24-105mm f/3.5-5.6 IS STM限定套装",
+        "src": "../img/shop/1234.jpg",
+        "oldprice": "￥13437.00",
+        "newprice": "￥12648.00"
     },
-    "../img/imgs/-1.png": {
-        "list": [{
-                "id": "shop43",
-                "name": "CRG 307 C",
-                "src": "../img/imgs/hz1.png",
-                "oldprice": ":￥877.00",
-                "newprice": ":￥877.00"
-            },
-
-            {
-                "id": "shop44",
-                "name": "PG-845S",
-                "src": "../img/imgs/hz2.png",
-                "oldprice": ":￥90.00",
-                "newprice": ":￥90.00"
-            },
-            {
-                "id": "shop45",
-                "name": "GP-508 4xA6 (20)",
-                "src": "../img/imgs/hz3.png",
-                "oldprice": ":￥14.00",
-                "newprice": ":￥14.00"
-            },
-            {
-                "id": "shop46",
-                "name": "佳能（Canon）可打印指甲贴 NL-101",
-                "src": "../img/imgs/hz4.png",
-                "oldprice": ":￥88.00",
-                "newprice": ":￥88.00"
-            }, {
-                "id": "shop47",
-                "name": "Canon/佳能 890 墨水瓶套装（适用G1810、G2810、G3810、G4810）",
-                "src": "../img/imgs/hz5.png",
-                "oldprice": ":￥240.00",
-                "newprice": ":￥225.00"
-            }, {
-                "id": "shop48",
-                "name": "佳能 880/881XL 墨盒套装（适用TS9180、TR8580）",
-                "src": "../img/imgs/hz6.png",
-                "oldprice": ":￥788.00",
-                "newprice": ":￥709.00"
-            }
-        ]
-
+    {
+        "id": "shop54",
+        "name": "EOS RP 24-105USM套机+手柄EG-E1(蓝) 限定套装",
+        "src": "../img/shop/1蓝色.jpg",
+        "oldprice": "￥17867.00",
+        "newprice": "￥16768.00"
+    },
+    {
+        "id": "shop55",
+        "name": "RF85mm F1 .2 L USM ",
+        "src": "../img/shop/1 (1).jpg",
+        "oldprice": "￥18749.00",
+        "newprice": "￥18749.00"
+    },
+    {
+        "id": "shop56",
+        "name": "佳能手机照片打印机 瞬彩 PV-123 玫瑰金",
+        "src": "../img/shop/J金.jpg",
+        "oldprice": "￥998.00",
+        "newprice": "￥1260.00"
+    },
+    {
+        "id": "shop57",
+        "name": "EOS M100 粉色单头套机 EF-M 15-45mm f3.5-6.3 IS STM",
+        "src": "../img/show/1.jpg",
+        "oldprice": "￥3399.00",
+        "newprice": "￥3199.00"
+    }, {
+        "id": "shop58",
+        "name": "EOS 6D Mark II 套机 EF 24-105mm f/3.5-5.6 IS STM",
+        "src": "../img/show/4.jpg",
+        "oldprice": "￥13999.00",
+        "newprice": "￥13349.00"
+    }, {
+        "id": "shop59",
+        "name": "EOS 6D Mark II 套机 EF 24-70mm f/4L IS USM",
+        "src": "../img/show/5.jpg",
+        "oldprice": "￥16549.00",
+        "newprice": "￥15749.00"
+    }, {
+        "id": "shop60",
+        "name": "EOS 5D Mark IV 套机 EF 24-70mm f/4L IS USM",
+        "src": "../img/show/7.jpg",
+        "oldprice": "￥26949.00",
+        "newprice": "￥24749.00"
+    }, {
+        "id": "shop61",
+        "name": "EOS 800D 套机 EF-S 18-55mm f/4-5.6 IS STM",
+        "src": "../img/show/8.jpg",
+        "oldprice": "￥5899.0",
+        "newprice": "￥5599.00"
+    }, {
+        "id": "shop62",
+        "name": "EOS 800D 套机 EF-S 18-55mm f/4-5.6 IS STM",
+        "src": "../img/show/9.jpg",
+        "oldprice": "￥18749.00",
+        "newprice": "￥18749.00"
+    }, {
+        "id": "shop63",
+        "name": "EOS R 机身",
+        "src": "../img/show/12.jpg",
+        "oldprice": "￥16349.00",
+        "newprice": "￥14999.00"
+    }, {
+        "id": "shop64",
+        "name": "EF 50mm f/1.4 USM",
+        "src": "../img/show/13.jpg",
+        "oldprice": "￥2799.00",
+        "newprice": "￥2599.00"
     }
-}
+]

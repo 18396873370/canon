@@ -24,7 +24,7 @@ if (str) {
 
 } else {
     $("#yhimg").html("登入/注册");
-    $(".login").css("margin-left", 170);
+    $(".login").css("margin-left", "11 %");
     $(".yhimg").html("");
     $(".jt").html("");
 }

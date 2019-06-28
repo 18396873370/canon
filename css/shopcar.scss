@@ -1,0 +1,338 @@
+.body {
+    background: #fff;
+}
+
+.center_shopcar {
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+
+
+    h2 {
+        color: #bf2318;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 16px;
+        margin-bottom: 8px;
+        margin-top: 20px;
+    }
+
+    .shop_car {
+        width: 100%;
+
+        line-height: 50px;
+        font-size: 12px;
+        color: #929292;
+
+
+        .nav_1 {
+            overflow: hidden;
+            background: #f3f3f3;
+
+            li {
+                list-style: none;
+                float: left;
+            }
+
+            .check {
+                color: #606266;
+                font-weight: 500;
+                font-size: 14px;
+                padding: 0px 50px;
+                line-height: 50px;
+
+                input {
+                    margin: 0px 10px;
+                }
+            }
+
+            .shop_1 {
+                color: #616161;
+                padding: 0px 488px 0px 73px;
+                font-size: 15px;
+            }
+
+            .price_1 {
+                color: #616161;
+                font-size: 15px;
+                padding-right: 7%;
+
+            }
+
+            .num_1 {
+                color: #616161;
+                font-size: 15px;
+                padding-right: 7%;
+            }
+
+            .money_1 {
+                color: #616161;
+                font-size: 15px;
+                padding-right: 7%;
+            }
+
+            .operate {
+                color: #616161;
+                font-size: 15px;
+                padding-right: 5%;
+            }
+        }
+
+        .moe {
+            clear: both;
+            border: 1px solid #ccc;
+            overflow: hidden;
+            width: 100%;
+
+            .moe_ {
+                border-bottom: 1px solid #ccc;
+                overflow: hidden;
+                box-sizing: border-box;
+
+                li {
+                    float: left;
+                    list-style: none;
+                    padding-top: 20px;
+                }
+
+                .check_1 {
+                    color: #606266;
+                    font-weight: 500;
+                    font-size: 14px;
+                    padding: 40px 0px 0px 60px;
+                    line-height: 50px;
+
+                }
+
+                .img_1 {
+                    img {
+                        vertical-align: top;
+                        width: 82px;
+                        height: 82px;
+                    }
+                }
+
+                .name_1 {
+                    width: 16%;
+                    text-align: center;
+                    color: #616161;
+                    margin-right: 30%;
+                    font-size: 15px;
+                }
+
+                .price_2 {
+                    position: relative;
+                    top: 10px;
+                    margin-right: 3%;
+
+                    .btn_up {
+                        display: block;
+                        height: 23px;
+                        width: 17px;
+                        border: 1px solid #e5e5e5;
+                        background: #f0f0f0;
+                        text-align: center;
+                        line-height: 23px;
+                        color: #444;
+                        position: absolute;
+                        top: 20px;
+                        left: 42px;
+                    }
+
+                    .num_text {
+                        height: 23px;
+                        width: 40px;
+                        display: block;
+                        border: 1px solid #e5e5e5;
+                        text-align: center;
+                        line-height: 23px;
+                    }
+
+                    .btn_down {
+
+                        height: 23px;
+                        width: 17px;
+                        border: 1px solid #e5e5e5;
+                        background: #f0f0f0;
+                        text-align: center;
+                        line-height: 23px;
+                        color: #444;
+                        position: absolute;
+                        top: 0;
+                        display: block;
+                        top: 20px;
+                        left: -19px;
+                    }
+                }
+
+                .money_2 {
+                    color: #616161;
+                    margin-right: 3%;
+                    font-size: 15px;
+                    width: 10%;
+                    text-align: center
+                }
+
+                .money_3 {
+                    color: #616161;
+                    margin-right: 3%;
+                    font-size: 15px;
+                    width: 10%;
+                    text-align: center
+                }
+
+                .delete:hover {
+                    color: #bf2318;
+                }
+
+                .lock:hover {
+                    color: #bf2318;
+                }
+
+
+                .operate_1 {
+                    color: #616161;
+                    font-size: 15px;
+                    line-height: 26px;
+
+                    p {
+                        line-height: 20px;
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    .bar-wrapper {
+        margin-top: 20px;
+        clear: both;
+        height: 50px;
+        border: 1px solid #ccc;
+        line-height: 50px;
+
+        .bar-left {
+            float: left;
+
+            #checked {
+                margin-left: 62px;
+                margin-right: 50px;
+            }
+
+            #all {
+                font-size: 15px;
+                color: #616161;
+                margin-right: 20px;
+            }
+
+            #del {
+                font-size: 15px;
+                color: #616161;
+                margin-right: 20px;
+            }
+
+            #del:hover {
+                color: #bf2318;
+            }
+
+            #all:hover {
+                color: #bf2318;
+            }
+
+            #add:hover {
+                color: #bf2318;
+            }
+
+            #add {
+                font-size: 15px;
+                color: #616161;
+                margin-right: 20px;
+            }
+        }
+
+        .bar-right {
+            float: right;
+
+            .piece {
+                float: left;
+                font-size: 15px;
+                color: #616161;
+
+                .numb {
+                    padding: 0px 20px;
+                    text-align: center;
+                    font-size: 12px;
+                    color: #bf2318;
+                }
+
+            }
+
+            .totalMoney {
+                float: left;
+                font-size: 15px;
+                color: #616161;
+                margin-left: 30px;
+
+                .money {
+                    text-align: center;
+                    width: 123px;
+                    display: inline-block;
+                    color: #bf2318;
+                }
+            }
+
+            .buy {
+                float: left;
+                width: 120px;
+                height: 50px;
+                color: #fff;
+                background: #bf2318;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 15px;
+                letter-spacing: 5px;
+                text-decoration: none;
+                line-height: 50px;
+                text-align: center;
+                border-radius: 2px;
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+.prop {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    //display: none;
+    .goshop {
+        margin: 0 auto;
+        width: 265px;
+        background: url(../img/car.968fc11.png) no-repeat left;
+        text-align: right;
+
+        p {
+            font-size: 14px;
+            color: #888888;
+            line-height: 50px;
+        }
+
+        a {
+            display: inline-block;
+            font-size: 14px;
+            color: #fff;
+            line-height: 30px;
+            text-align: center;
+            width: 68px;
+            height: 30px;
+            background: #bf2318;
+            border-radius: 5px;
+            margin-right: 73px;
+            cursor: pointer;
+
+        }
+    }
+}

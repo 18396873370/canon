@@ -10,21 +10,23 @@
      for (var i in json.list) {
          pro = json.list[i];
          if (pro.oldprice == 0) {
-             str += `<li>
+             str += `<li> <a href="details.html?pid=${pro.id}">
              <img class="hot" src="../img/hot2.140f870.png">
             <img class="newhot" src="../img/is_new2.5a16c51.png">
              <img class="shop" src="../${pro.src}">
              <p class="font">${pro.name}</p>
              <p class="active_price">会员价:<span>${pro.newprice}</span></p>
+             </a>
          </li>`
 
          } else if (pro.newprice == 0) {
-             str += `<li>
+             str += `<li><a href="details.html?pid=${pro.id}">
              <img class="hot" src="../img/hot2.140f870.png">
             <img class="newhot" src="../img/is_new2.5a16c51.png">
              <img class="shop" src="../${pro.src}">
              <p class="font">${pro.name}</p>
-             <p class="old_price">建议零售价:<span>${pro.oldprice}</span></p> 
+             <p class="old_price">建议零售价:<span>${pro.oldprice}</span></p>
+             </a> 
          </li>`
          }
 
@@ -47,8 +49,9 @@
          pro = json.list[i];
          if (pro.oldprice == pro.newprice) {
              str += `<li>
+             
                     <img class="new" src="../img/is_new2.5a16c51.png">
-                    <a class="goods" href="#">
+                    <a class="goods" href="details.html?pid=${pro.id}">
                         <p class="font">${pro.name}</p>
                         <p><img src="../${pro.src}"></p>
                         <p class="old_price" style="text-decoration-line:none">建议零售价<span>:${pro.oldprice}</span></p>
@@ -59,7 +62,7 @@
          } else {
              str += `<li>
                     <img class="new" src="../img/is_new2.5a16c51.png">
-                    <a class="goods" href="#">
+                    <a class="goods" href="details.html?pid=${pro.id}">
                         <p class="font">${pro.name}</p>
                         <p><img src="../${pro.src}"></p>
                         <p class="old_price">建议零售价<span>:${pro.oldprice}</span></p>
@@ -84,9 +87,9 @@
      var srr = "";
      var pro = null;
      for (var i in json) {
-         console.log(i)
+
          srr = `<img src="${i}"><span class="lookmore">查看更多</span>`
-         console.log(srr)
+
 
          pro = json[i].list;
          for (var j in pro) {
@@ -94,7 +97,7 @@
              if (pre.oldprice == pre.newprice) {
                  str += `<li class="moresee">
                  <div class="mate">
-                 <div class="seemore">立即查看</div>
+                 <a class="seemore" href="details.html?pid=${pre.id}">立即查看</a>
                  </div>
                  <a href="#" class="DSLR_content">
                  <p class="_name">${pre.name}</p>
@@ -106,7 +109,7 @@
              } else {
                  str += `<li class="moresee">
                  <div class="mate">
-                 <div class="seemore">立即查看</div>
+                 <a class="seemore" href="details.html?pid=${pre.id}">立即查看</a>
                  </div>
                  <a href="#" class="DSLR_content">
                  <p class="_name">${pre.name}</p>
@@ -139,9 +142,8 @@
      var srr = "";
      var pro = null;
      for (var i in json) {
-         console.log(i)
+
          srr = `<img src="${i}"><span class="lookmore">查看更多</span>`
-         console.log(srr)
 
          pro = json[i].list;
          for (var j in pro) {
@@ -149,7 +151,7 @@
              if (pre.oldprice == pre.newprice) {
                  str += `<li class="moresee">
                 <div class="mate">
-                <div class="seemore">立即查看</div>
+                <a class="seemore" href="details.html?pid=${pre.id}">立即查看</a>
                 </div>
                 <a href="#" class="DSLR_content">
                 <p class="_name">${pre.name}</p>
@@ -161,7 +163,7 @@
              } else {
                  str += `<li class="moresee">
                 <div class="mate">
-                <div class="seemore">立即查看</div>
+                <a class="seemore" href="details.html?pid=${pre.id}">立即查看</a>
                 </div>
                 <a href="#" class="DSLR_content">
                 <p class="_name">${pre.name}</p>
@@ -195,9 +197,9 @@
      var srr = "";
      var pro = null;
      for (var i in json) {
-         console.log(i)
+
          srr = `<img src="${i}"><span class="lookmore">查看更多</span>`
-         console.log(srr)
+
 
          pro = json[i].list;
          for (var j in pro) {
@@ -205,7 +207,7 @@
              if (pre.oldprice == pre.newprice) {
                  str += `<li class="moresee">
                <div class="mate">
-               <div class="seemore">立即查看</div>
+               <a class="seemore" href="details.html?pid=${pre.id}">立即查看</a>
                </div>
                <a href="#" class="DSLR_content">
                <p class="_name">${pre.name}</p>
@@ -217,7 +219,7 @@
              } else {
                  str += `<li class="moresee">
                <div class="mate">
-               <div class="seemore">立即查看</div>
+               <a class="seemore" href="details.html?pid=${pre.id}">立即查看</a>
                </div>
                <a href="#" class="DSLR_content">
                <p class="_name">${pre.name}</p>
@@ -251,16 +253,16 @@
      var srr = "";
      var pro = null;
      for (var i in json) {
-         console.log(i)
+
          srr = `<img src="${i}"><span class="lookmore">查看更多</span>`
-         console.log(srr)
+
          pro = json[i].list;
          for (var j in pro) {
              var pre = pro[j];
              if (pre.oldprice == pre.newprice) {
                  str += `<li class="moresee">
                <div class="mate">
-               <div class="seemore">立即查看</div>
+               <a class="seemore" href="details.html?pid=${pre.id}">立即查看</a>
                </div>
                <a href="#" class="DSLR_content">
                <p class="_name">${pre.name}</p>
@@ -272,7 +274,7 @@
              } else {
                  str += `<li class="moresee">
                <div class="mate">
-               <div class="seemore">立即查看</div>
+               <a class="seemore" href="details.html?pid=${pre.id}">立即查看</a>
                </div>
                <a href="#" class="DSLR_content">
                <p class="_name">${pre.name}</p>
@@ -307,16 +309,18 @@
      var srr = "";
      var pro = null;
      for (var i in json) {
-         console.log(i)
+
+
          srr = `<img src="${i}"><span class="lookmore">查看更多</span>`
-         console.log(srr)
+
+
          pro = json[i].list;
          for (var j in pro) {
              var pre = pro[j];
              if (pre.oldprice == pre.newprice) {
                  str += `<li class="moresee">
               <div class="mate">
-              <div class="seemore">立即查看</div>
+              <a class="seemore" href="details.html?pid=${pre.id}">立即查看</a>
               </div>
               <a href="#" class="DSLR_content">
               <p class="_name">${pre.name}</p>
@@ -328,7 +332,7 @@
              } else {
                  str += `<li class="moresee">
               <div class="mate">
-              <div class="seemore">立即查看</div>
+              <a class="seemore" href="details.html?pid=${pre.id}">立即查看</a>
               </div>
               <a href="#" class="DSLR_content">
               <p class="_name">${pre.name}</p>
@@ -365,16 +369,17 @@
      var srr = "";
      var pro = null;
      for (var i in json) {
-         console.log(i)
+
          srr = `<img src="${i}"><span class="lookmore">查看更多</span>`
-         console.log(srr)
+
+
          pro = json[i].list;
          for (var j in pro) {
              var pre = pro[j];
              if (pre.oldprice == pre.newprice) {
                  str += `<li class="moresee">
               <div class="mate">
-              <div class="seemore">立即查看</div>
+              <a class="seemore" href="details.html?pid=${pre.id}">立即查看</a>
               </div>
               <a href="#" class="DSLR_content">
               <p class="_name">${pre.name}</p>
@@ -386,7 +391,7 @@
              } else {
                  str += `<li class="moresee">
               <div class="mate">
-              <div class="seemore">立即查看</div>
+              <a class="seemore" href="details.html?pid=${pre.id}">立即查看</a>
               </div>
               <a href="#" class="DSLR_content">
               <p class="_name">${pre.name}</p>
@@ -421,16 +426,16 @@
      var srr = "";
      var pro = null;
      for (var i in json) {
-         console.log(i)
+
          srr = `<img src="${i}"><span class="lookmore">查看更多</span>`
-         console.log(srr)
+
          pro = json[i].list;
          for (var j in pro) {
              var pre = pro[j];
              if (pre.oldprice == pre.newprice) {
                  str += `<li class="moresee">
              <div class="mate">
-             <div class="seemore">立即查看</div>
+             <a class="seemore" href="details.html?pid=${pre.id}">立即查看</a>
              </div>
              <a href="#" class="DSLR_content">
              <p class="_name">${pre.name}</p>
@@ -442,7 +447,7 @@
              } else {
                  str += `<li class="moresee">
              <div class="mate">
-             <div class="seemore">立即查看</div>
+             <a class="seemore" href="details.html?pid=${pre.id}">立即查看</a>
              </div>
              <a href="#" class="DSLR_content">
              <p class="_name">${pre.name}</p>
@@ -477,16 +482,16 @@
      var srr = "";
      var pro = null;
      for (var i in json) {
-         console.log(i)
+
          srr = `<img src="${i}"><span class="lookmore">查看更多</span>`
-         console.log(srr)
+
          pro = json[i].list;
          for (var j in pro) {
              var pre = pro[j];
              if (pre.oldprice == pre.newprice) {
                  str += `<li class="moresee">
             <div class="mate">
-            <div class="seemore">立即查看</div>
+            <a class="seemore" href="details.html?pid=${pre.id}">立即查看</a>
             </div>
             <a href="#" class="DSLR_content">
             <p class="_name">${pre.name}</p>
@@ -498,7 +503,7 @@
              } else {
                  str += `<li class="moresee">
             <div class="mate">
-            <div class="seemore">立即查看</div>
+            <a class="seemore" href="details.html?pid=${pre.id}">立即查看</a>
             </div>
             <a href="#" class="DSLR_content">
             <p class="_name">${pre.name}</p>
@@ -543,20 +548,22 @@
          for (var j in pro) {
              var pre = pro[j];
              if (pre.oldprice == pre.newprice) {
-                 str += `<li class="swiper_slide">
+                 str += `<li class="swiper_slide"><a href="details.html?pid=${pre.id}">
                  <p class="text">${pre.name}</p>
                  <p class="old_price">建议零售价：<span>${pre.oldprice}</span></p>
                  <p class="active_price">&nbsp;</span></p>
                  <img src="${pre.src}">
-                 <span class="look">立即查看</span>
+                 <span class="look"> 立即查看</span>
+                 </a>
              </li>`
              } else {
-                 str += `<li class="swiper_slide">
+                 str += `<li class="swiper_slide"><a href="details.html?pid=${pre.id}">
                  <p class="text">${pre.name}</p>
                  <p class="old_price">建议零售价：<span>${pre.oldprice}</span></p>
                  <p class="active_price">会员价: <span>${pre.newprice}</span></p>
                  <img src="${pre.src}">
                  <span class="look">立即查看</span>
+                 </a>
              </li>`
              }
          }
@@ -568,3 +575,7 @@
      //$(".material ul li .old_price").eq(3).css("text-decoration-line", "none")
      //$(".material ul li").eq(5).css("margin-right", 0);
  });
+
+ //  $(".details").on("click", ".seemore", function () {
+ //      location.href="details.html";
+ //  })

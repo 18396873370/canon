@@ -61,6 +61,8 @@ $(".list").on("click", "button", function () {
         var yhpwd = $("#yhpwd").val();
         if (yhpwd == user.pwd) {
             alert("登入成功")
+
+            location.href = "index.html";
         } else {
             alert("密码错误")
             $("#yhpwd").val("").focus();

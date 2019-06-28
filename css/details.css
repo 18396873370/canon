@@ -18,6 +18,12 @@
   line-height: 30px;
 }
 
+.title ul .names {
+  background: #6d6d6d;
+  height: 30px;
+  padding: 0px 10px;
+}
+
 .title ul .sheet {
   height: 30px;
   width: 50px;
@@ -40,12 +46,49 @@
   margin-top: 20px;
   width: 450px;
   float: left;
+  position: relative;
 }
 
-.substance .left img {
+.substance .left .mast {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  width: 150px;
+  height: 150px;
+  top: 0px;
+  left: 0px;
+  z-index: 99;
+}
+
+.substance .left .left_ {
+  display: none;
+  position: absolute;
+  overflow: hidden;
+  width: 450px;
+  height: 450px;
+  top: 1px;
+  left: 483px;
+  z-index: 99;
+}
+
+.substance .left .left_ img {
+  width: 300%;
+  height: 300%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.substance .left #smaill {
   height: 450px;
   width: 450px;
   border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.substance .left img {
+  height: 100%;
+  width: 100%;
 }
 
 .substance .left dl dd {
@@ -103,6 +146,10 @@
 
 .substance .right .date .old .old-money {
   text-decoration-line: line-through;
+}
+
+.substance .right .date .old .old_money {
+  text-decoration-line: none;
 }
 
 .substance .right .date .old .advise {
@@ -182,16 +229,21 @@
   line-height: 31px;
 }
 
-.substance .right .gift .number input {
+.substance .right .gift .number .buy {
   text-align: center;
   width: 34px;
-  height: 31px;
+  height: 34px;
   float: left;
   margin-left: 30px;
   margin-right: 5px;
+  display: block;
+  border: 1px solid #000;
+  line-height: 34px;
 }
 
 .substance .right .gift .number .numup {
+  background: url(../img/上箭头.png) no-repeat center;
+  background-size: 16px;
   width: 18px;
   height: 16px;
   display: block;
@@ -200,6 +252,8 @@
 }
 
 .substance .right .gift .number .numdown {
+  background: url(../img/下箭头.png) no-repeat center;
+  background-size: 16px;
   width: 18px;
   height: 16px;
   display: block;
@@ -222,16 +276,258 @@
   width: 372px;
 }
 
-.substance .right .gift .btn button {
+.substance .right .gift .btn a {
   margin-right: 6px;
   line-height: 40px;
   font-size: 12px;
   color: #bf2318 !important;
-  display: inline-block;
   width: 47%;
   text-align: center;
   border: 1px solid #bf2318;
   background: #ffeded;
   font-weight: bold;
   outline: none;
+  display: block;
+  float: left;
+}
+
+.substance .right .share {
+  margin-top: 40px;
+}
+
+.substance .right .share a {
+  overflow: hidden;
+}
+
+.substance .right .share .share_1 {
+  background: url(../img/gz.png) no-repeat left;
+  background-size: 15px;
+  display: block;
+  font-size: 12px;
+  color: #7b7b7b;
+  margin-right: 20px;
+  float: left;
+  line-height: 28px;
+  padding-left: 20px;
+}
+
+.substance .right .share .share_2 {
+  background: url(../img/gz1.png) no-repeat left;
+  background-size: 15px;
+  display: block;
+  font-size: 12px;
+  color: #7b7b7b;
+  margin-right: 20px;
+  float: left;
+  line-height: 28px;
+  padding-left: 20px;
+}
+
+.substance .right .share .wx {
+  background: url(../img/微信.png) no-repeat 0 5px;
+  background-size: 15px;
+  display: block;
+  font-size: 12px;
+  line-height: 28px;
+  padding-left: 20px;
+  float: left;
+}
+
+.substance .right .share .wb {
+  background: url(../img/weibo.png) no-repeat 0 5px;
+  background-size: 15px;
+  display: block;
+  font-size: 12px;
+  float: left;
+  line-height: 28px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+
+.chosetitle {
+  clear: both;
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #eee;
+  background: #f7f7f7;
+  height: 38px;
+}
+
+.chosetitle p {
+  width: 106px;
+  text-align: center;
+  line-height: 38px;
+  color: #fff;
+  font-size: 12px;
+  background: #bf2318;
+  font-weight: bold;
+}
+
+.combo_clearfix {
+  clear: both;
+  margin-top: 14px;
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.combo_clearfix .combopro_fl {
+  width: 112px;
+  float: left;
+}
+
+.combo_clearfix .combopro_fl img {
+  width: 100px;
+  height: 100px;
+}
+
+.combo_clearfix .combopro_fl p {
+  font-size: 12px;
+  color: #6d6d6d;
+  margin-top: 8px;
+}
+
+.combo_clearfix .fl_and {
+  float: left;
+  margin-top: 86px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-right: 24px;
+}
+
+.combo_clearfix .comgroup_fl {
+  float: left;
+}
+
+.combo_clearfix .comgroup_fl li {
+  list-style: none;
+  width: 120px;
+  float: left;
+  margin-right: 25px;
+}
+
+.combo_clearfix .comgroup_fl li a img {
+  width: 100px;
+  height: 100px;
+}
+
+.combo_clearfix .comgroup_fl li a p {
+  font-size: 12px;
+  color: #6d6d6d;
+  margin-top: 8px;
+}
+
+.combo_clearfix .comgroup_fl li .clearfix {
+  line-height: 20px;
+  margin-top: 15px;
+}
+
+.combo_clearfix .comgroup_fl li .clearfix input {
+  margin-top: 4px;
+  margin-right: 5px;
+  float: left;
+}
+
+.combo_clearfix .comgroup_fl li .clearfix .comPrice_fl {
+  font-size: 12px;
+  color: #bf2318;
+  float: left;
+}
+
+.combo_clearfix .equal {
+  margin-top: 86px;
+  margin-right: 42px;
+  float: right;
+}
+
+.combo_clearfix .buynew {
+  wdith: 115px;
+  margin-right: 34px;
+  margin-top: 48px;
+  float: right;
+}
+
+.combo_clearfix .buynew p {
+  font-size: 12px;
+  color: #6d6d6d;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.combo_clearfix .buynew .allprice {
+  width: 100px;
+  display: inline-block;
+  font-size: 16px;
+  color: #bf2318;
+}
+
+.combo_clearfix .buynew .buynowgroup {
+  font-size: 12px;
+  display: inline-block;
+  padding: 5px;
+  background: #bf2318;
+  color: #fff;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.chosebuy {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.chosebuy .choselist {
+  text-align: center;
+  width: 210px;
+  float: left;
+}
+
+.chosebuy .choselist h2 {
+  height: 38px;
+  background: #f7f7f7;
+  font-size: 12px;
+  color: #6d6d6d;
+  line-height: 38px;
+  padding-left: 10px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.chosebuy .proRecommend {
+  font-size: 14px;
+  width: 980px;
+  float: right;
+}
+
+.chosebuy .proRecommend h2 {
+  height: 38px;
+  background: #f7f7f7;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.chosebuy .proRecommend h2 .prorec {
+  background: #bf2318;
+  color: #fff;
+}
+
+.chosebuy .proRecommend h2 span {
+  cursor: pointer;
+  display: inline-block;
+  width: 108px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 12px;
+  color: #6d6d6d;
+  text-align: center;
+}
+
+.photo {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.photo img {
+  width: 100%;
 }
