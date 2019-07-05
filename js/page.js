@@ -1,3 +1,36 @@
+//是否有账号登入
+var zh = $.cookie("userinfo");
+if (zh) {
+    var userjson = JSON.parse(zh);
+    $("#yhimg").html(userjson.name);
+    $(".login").css("margin-left", 137);
+    var img = `<img src='../img/用户.png'>`
+    var imgs = `<img src="../img/1111111.png">`
+    $(".yhimg").html(img);
+    $(".jt").html(imgs);
+    $("#yhimg").attr("href", "#")
+    $(".login").mouseenter(function () {
+        $(".yhzx").slideDown(300);
+        $("#yhzx").on("mouseenter", "p", function () {
+            $(".yhzx").stop().css("display", "block");
+            $(this).css("background", "#bf2318").siblings().css("background", "#e3e3e3");
+            $(this).children("a").css("color", "#fff").parent().siblings().children("a").css("color", "#000");
+        })
+    })
+    $(".login").mouseleave(function () {
+        $(".yhzx").slideUp(300);
+    })
+    $("#yhzx").on("mouseleave", "p", function () {
+        $(".yhzx").css("display", "none");
+    })
+
+} else {
+    $("#yhimg").html("登入/注册");
+    $(".login").css("margin-left", "11 %");
+    $(".yhimg").html("");
+    $(".jt").html("");
+}
+
 //跳转详情页
 var str = location.href;
 var arr = str.split("?")[1];
@@ -14,6 +47,7 @@ deff.done(function (json) {
     var sar = "";
     var scr = "";
     var srr = "";
+    var str = "";
     var pro = null;
     for (var i in json) {
         pro = json[i]
@@ -22,16 +56,15 @@ deff.done(function (json) {
             if (pro.newprice == pro.oldprice) {
                 srr += ` <li class="sheet "></li>
                 <li class="names">${pro.name}</li>`
-                sar += `<div id="smaill">
+                sar += `
                 <div class="mast"></div>
-                <img src="${pro.src}">
-                </div>
-            <dl>
-                <dd><img src="${pro.src}"> </dd>
-            </dl>
+                <img class= "smaill"  src="${pro.src}">
             <div class="left_">
                 <img id="bigimg" src="${pro.src}">
             </div>`
+                str += `
+                    <dd><img src="${pro.src}"> </dd>
+                  `
                 scr += `<h2>${pro.name}</h2>
                 <p class="prompting">赠品优酷年卡，在订单完成7天后，请自行联系客服领取</p>
                 <div class="date">
@@ -41,7 +74,7 @@ deff.done(function (json) {
                             <p class="warn">从<span class="area">上海</span>发货，除周日及法定节假日外，当天15：30前完成支付，当日发货</p>
                             <dl class="style">
                                 <dt>选择版本：</dt>
-                                <dd>4411545-6526</dd>
+                                <dd>${pro.name}</dd>
                             </dl>
                             <div class="gift">
                                 <p class="gift_">【赠品】</p>
@@ -70,16 +103,17 @@ deff.done(function (json) {
             } else {
                 srr += ` <li class="sheet "></li>
                 <li class="names">${pro.name}</li>`
-                sar += `<div id="smaill">
+                sar += `
                 <div class="mast"></div>
-                <img src="${pro.src}">
-                </div>
-            <dl>
-                <dd><img src="${pro.src}"> </dd>
-            </dl>
+                <img class= "smaill" src="${pro.src}">
+                
             <div class="left_">
                 <img id="bigimg" src="${pro.src}">
             </div>`
+                str += `
+                    
+                    <dd><img src="${pro.src}"> </dd>
+                   `
                 scr += `<h2>${pro.name}</h2>
                 <p class="prompting">赠品优酷年卡，在订单完成7天后，请自行联系客服领取</p>
                 <div class="date">
@@ -89,7 +123,7 @@ deff.done(function (json) {
                             <p class="warn">从<span class="area">上海</span>发货，除周日及法定节假日外，当天15：30前完成支付，当日发货</p>
                             <dl class="style">
                                 <dt>选择版本：</dt>
-                                <dd>4411545-6526</dd>
+                                <dd>${pro.name}</dd>
                             </dl>
                             <div class="gift">
                                 <p class="gift_">【赠品】</p>
@@ -123,7 +157,48 @@ deff.done(function (json) {
     $(".left").html(sar);
     $(".right").html(scr);
     $(".name").html(srr);
+    $(".left_1-1").html(str);
 })
+//放大镜
+
+$(".left").mouseenter(function () {
+
+    $(".mast").css("display", "block");
+    $(".left_").css("display", "block");
+})
+$(".left").mouseleave(function () {
+    $(".mast").css("display", "none");
+    $(".left_").css("display", "none");
+})
+$(".left").mousemove(function (e) {
+    var e = e || event;
+    var X = e.pageX - $(".left").offset().left - $(".mast").width() / 2;
+    var Y = e.pageY - $(".left").offset().top - $(".mast").height() / 2;
+
+    var maxX = $(".left").width() - $(".mast").width();
+    var maxY = $(".left").height() - $(".mast").height();
+
+    X = Math.min(Math.max(0, X), maxX)
+    Y = Math.min(Math.max(0, Y), maxY)
+    $(".mast").css({
+        "left": X,
+        "top": Y
+    })
+
+    var bigX = X * $(".left_").width() / $(".mast").width();
+    var bigY = Y * $(".left_").height() / $(".mast").height();
+    console.log($(".left_").height() / $(".left").height())
+    $("#bigimg").css({
+        "left": -bigX,
+        "top": -bigY
+    })
+
+})
+
+
+
+
+
 //点击时添加商品
 var index = 1;
 $(".right").on("click", ".numup", function () {

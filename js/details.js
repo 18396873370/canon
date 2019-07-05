@@ -1,3 +1,43 @@
+//热销商品
+var daff = $.ajax({
+    type: "get",
+    url: "../json/newshop.json?_id=" + new Date().getTime(),
+    async: true
+});
+daff.done(function (json) {
+    var str = "";
+    var pro = null;
+    for (var i in json.list) {
+        pro = json.list[i];
+        if (pro.oldprice == 0) {
+            str += `<li> <a href="details.html?pid=${pro.id}">
+            <img class="hot" src="../img/hot2.140f870.png">
+           <img class="newhot" src="../img/is_new2.5a16c51.png">
+            <img class="shop" src="../${pro.src}">
+            <p class="font">${pro.name}</p>
+            <p class="active_price">会员价:<span>${pro.newprice}</span></p>
+            </a>
+        </li>`
+
+        } else if (pro.newprice == 0) {
+            str += `<li><a href="details.html?pid=${pro.id}">
+            <img class="hot" src="../img/hot2.140f870.png">
+           <img class="newhot" src="../img/is_new2.5a16c51.png">
+            <img class="shop" src="../${pro.src}">
+            <p class="font">${pro.name}</p>
+            <p class="old_price">建议零售价:<span>${pro.oldprice}</span></p>
+            </a> 
+        </li>`
+        }
+
+
+    }
+    $("#newsgood").html(str);
+
+})
+
+
+
 //放大镜
 $("#smaill").mouseenter(function () {
     $(".mast").css("display", "block");

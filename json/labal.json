@@ -1,156 +1,205 @@
 {
-    "EOS单反/微单相机": {
-        "list": [{
+    "classify001": {
+        "name": "EOS单反/微单相机",
+        "list": [
+            {
+                "id": "classify001-1",
                 "name": "专业摄影师"
             },
             {
+                "id": "classify001-2",
                 "name": "摄影爱好者"
             },
             {
+                "id": "classify001-3",
                 "name": "摄影初学者"
             },
             {
+                "id": "classify001-4",
                 "name": "EOS单反/微单相机"
             }
         ]
-
     },
-    "EF/RF镜头及附件": {
-        "list": [{
+    "classify002": {
+        "name": "EF/RF镜头及附件",
+        "list": [
+            {
+                "id": "classify002-1",
                 "name": "RF镜头"
             },
             {
+                "id": "classify002-2",
                 "name": "EF变焦镜头"
             },
             {
+                "id": "classify002-3",
                 "name": "EF定焦镜头"
             },
             {
+                "id": "classify002-4",
                 "name": "EF-S镜头"
             },
             {
+                "id": "classify002-5",
                 "name": "EF-M镜头"
             },
             {
+                "id": "classify002-6",
                 "name": "EF特殊镜头"
             },
             {
+                "id": "classify002-7",
                 "name": "EF镜头附件"
             }
         ]
-
     },
-    "小型数码相机": {
-        "list": [{
+    "classify003": {
+        "name": "小型数码相机",
+        "list": [
+            {
+                "id": "classify003-1",
                 "name": "PowerShot G系列相机"
             },
             {
+                "id": "classify003-2",
                 "name": "PowerShot SX系列相机"
             },
             {
+                "id": "classify003-3",
                 "name": "IXUS系列相机"
             },
             {
+                "id": "classify003-3",
                 "name": "小型数码相机附件"
             }
         ]
-
     },
-    "打印机及一体机": {
-        "list": [{
+    "classify004": {
+        "name": "打印机及一体机",
+        "list": [
+            {
+                "id": "classify004-1",
                 "name": "喷墨一体机"
             },
             {
+                "id": "classify004-2",
                 "name": "喷墨打印机"
             },
             {
+                "id": "classify004-3",
                 "name": "彩色激光一体机"
             },
             {
+                "id": "classify004-4",
                 "name": "黑白激光一体机"
             },
             {
+                "id": "classify004-5",
                 "name": "彩色激光打印机"
             },
             {
+                "id": "classify004-6",
                 "name": "黑白激光打印及"
             },
             {
+                "id": "classify004-7",
                 "name": "激光传真机"
             }
         ]
-
     },
-    "打印机耗材": {
-        "list": [{
+    "classify005": {
+        "name": "打印机耗材",
+        "list": [
+            {
+                "id": "classify005-1",
                 "name": "照片纸"
             },
             {
+                "id": "classify005-2",
                 "name": "墨水/墨盒"
             },
             {
+                "id": "classify005-3",
                 "name": "硒鼓"
             }
         ]
-
     },
-    "小型照片打印机": {
-        "list": [{
+    "classify006": {
+        "name": "小型照片打印机",
+        "list": [
+            {
+                "id": "classify006-1",
                 "name": "炫飞Selphy照片打印机"
             },
             {
+                "id": "classify006-2",
                 "name": "炫飞Selphy耗材及附件"
             }
         ]
-
     },
-    "手机照片打印机": {
-        "list": [{
+    "classify007": {
+        "name": "手机照片打印机",
+        "list": [
+            {
+                "id": "classify007-1",
                 "name": "佳能手机照片打印机 瞬彩"
             },
             {
+                "id": "classify007-2",
                 "name": "瞬彩原装照片纸"
             }
         ]
-
     },
-    "数码摄像机": {
-        "list": [{
+    "classify008": {
+        "name": "数码摄像机",
+        "list": [
+            {
+                "id": "classify008-1",
                 "name": "家用数码摄像机"
             },
             {
+                "id": "classify008-2",
                 "name": "数码摄像机附件"
             }
         ]
-
     },
-    "专业影视设备": {
-        "list": [{
+    "classify009": {
+        "name": "专业影视设备",
+        "list": [
+            {
+                "id": "classify009-1",
                 "name": "Cinema EOS摄像机"
             },
             {
+                "id": "classify009-2",
                 "name": "新概念数码摄像机"
             },
             {
+                "id": "classify009-3",
                 "name": "专业数码摄像机"
             }
         ]
-
     },
-    "扫描仪": {
-        "list": [{
+    "classify010": {
+        "name": "扫描仪",
+        "list": [
+            {
+                "id": "classify010-1",
                 "name": "时尚平板扫描仪"
             },
             {
+                "id": "classify010-1",
                 "name": "专业高速扫描仪"
             }
         ]
-
     },
-    "望远镜": {
-        "list": [{
-            "name": "双眼望远镜"
-        }]
-
+    "classify011": {
+        "name": "望远镜",
+        "list": [
+            {
+                "id": "classify011-1",
+                "name": "双眼望远镜"
+            }
+        ]
     }
 }

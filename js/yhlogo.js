@@ -7,6 +7,7 @@ if (str) {
     var imgs = `<img src="../img/1111111.png">`
     $(".yhimg").html(img);
     $(".jt").html(imgs);
+    $("#yhimg").attr("href", "#")
     $(".login").mouseenter(function () {
         $(".yhzx").slideDown(300);
         $("#yhzx").on("mouseenter", "p", function () {

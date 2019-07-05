@@ -1,3 +1,36 @@
+//是否有账号登入
+var zh = $.cookie("userinfo");
+if (zh) {
+    var userjson = JSON.parse(zh);
+    $("#yhimg").html(userjson.name);
+    $(".login").css("margin-left", 137);
+    var img = `<img src='../img/用户.png'>`
+    var imgs = `<img src="../img/1111111.png">`
+    $(".yhimg").html(img);
+    $(".jt").html(imgs);
+    $("#yhimg").attr("href", "#")
+    $(".login").mouseenter(function () {
+        $(".yhzx").slideDown(300);
+        $("#yhzx").on("mouseenter", "p", function () {
+            $(".yhzx").stop().css("display", "block");
+            $(this).css("background", "#bf2318").siblings().css("background", "#e3e3e3");
+            $(this).children("a").css("color", "#fff").parent().siblings().children("a").css("color", "#000");
+        })
+    })
+    $(".login").mouseleave(function () {
+        $(".yhzx").slideUp(300);
+    })
+    $("#yhzx").on("mouseleave", "p", function () {
+        $(".yhzx").css("display", "none");
+    })
+
+} else {
+    $("#yhimg").html("登入/注册");
+    $(".login").css("margin-left", "11 %");
+    $(".yhimg").html("");
+    $(".jt").html("");
+}
+
 //热销商品
 var daff = $.ajax({
     type: "get",
@@ -45,7 +78,7 @@ $(".totop").click(function () {
 
     $("html,body").animate({
         scrollTop: 0
-    }, 1000, )
+    }, 1000)
 
 })
 //鼠标划上
@@ -120,19 +153,28 @@ deff.done(function (json) {
 
     }
     //选项卡委托事件；
+    //选项卡委托事件；
     $(".two").on("click", ".nav_li", function () {
         $(this).css("background", "#e3e3e3").siblings().css("background", "#bf2318");
         $(this).css("color", "#2a2a2a").siblings().css("color", "#fff");
 
 
         stre = "";
-        for (var i in json) {
+        for (let i in json) {
             // console.log(i)
-            if ($(this).html() == i) {
+            if ($(this).html() == json[i].name) {
                 pro = json[i].list;
-                for (var j in pro) {
-                    stre += `<li>${pro[j].name}</li>`
+                for (let j in pro) {
+                    console.log()
+                    stre += `<li style="line-height:20px">
+                                <a href="list.html?pid=${pro[j].id}&pid1=${i}">${pro[j].name}</a>
+                            </li>`
+                    $(".secondmenu").on("click", "li", function () {
+                        location.href = `list.html?pid=${i}&pid1=${pro[j].id}`;
+                    })
+
                 }
+
                 $(".secondmenu").html(stre);
             }
         }
@@ -173,6 +215,7 @@ $("#moreshop").on("mouseleave", ".moresee", function () {
     $(this).children(".mate").stop().fadeOut(300);
 })
 //购物车显示
+
 var str = localStorage.getItem("prolist");
 if (str == "[]") {
     $(".prop").css("display", "block");
@@ -224,7 +267,7 @@ if (str == "[]") {
                     <span class="num_text">${shopinfo.count}</span>
                     <span class="btn_down">-</span>
                 </li>
-                <li class="money_3">￥${money*shopinfo.count}.00</li>
+                <li class="money_3">￥${money * shopinfo.count}.00</li>
                 <li class="operate_1">
                     <span class="delete">删除</span>
                     <p class="lock">关注</p>
@@ -233,6 +276,8 @@ if (str == "[]") {
     })
     $(".moe").html(strCon);
 }
+
+
 //复选框
 $(".check input").click(function () {
     $(".moe .moe_ li input").prop("checked", $(this).prop("checked"))
@@ -250,9 +295,6 @@ $(".moe").on("click", ".ck", function () {
     money()
 
 });
-
-
-
 
 //加减数量
 $(".moe").on("click", ".btn_up", function () {
@@ -311,9 +353,11 @@ $(".moe").on("click", ".btn_down", function () {
         }
     })
     money()
+
 });
 //删除功能
 $(".moe").on("click", ".delete", function () {
+    money()
     $(this).parent().parent().remove();
     var pid = $(this).parent().parent().data("id");
     console.log(pid)
@@ -324,6 +368,9 @@ $(".moe").on("click", ".delete", function () {
 
         }
     })
+    look();
+    $(".numb").html(count);
+    $(".money").html("￥" + money + ".00");
 });
 
 //判断所选几件商品
@@ -343,9 +390,8 @@ function money() {
 //删除选中所有
 $("#del").click(function () {
     check()
+
 })
-
-
 
 
 function check() {

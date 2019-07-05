@@ -30,21 +30,16 @@
     <div class="body">
         <!-- 导航栏 -->
         <div class="nav">
-            <div class="yhzx">
-                <div id="yhzx">
-                    <p><a>个人中心</a></p>
-                    <p><a>我的订单</a></p>
-                    <p><a>我的优惠券</a></p>
-                    <p><a>注销登入</a></p>
-                </div>
-            </div>
-            <ol class="secondmenu">
-            </ol>
+
             <ul id="nav">
 
                 <li id="one" class="sty"><img src="../img/1231231.png">全部商品
-                    <ul class="two">
-                    </ul>
+                    <div>
+                        <ul class="two">
+                        </ul>
+                        <ol class="secondmenu">
+                        </ol>
+                    </div>
                 </li>
                 <li class="first sty"><a href="index.html">首页</a></li>
                 <li class="sty" id="newshop">新品上市</li>
@@ -52,9 +47,18 @@
                 <li class="sty">领券中心</li>
                 <!-- <img src="../img/用户.png"> -->
                 <!-- <img src="../img/1111111.png">-->
-                <li class="login sty"><span class="yhimg"></span><a id="yhimg" href="list.html">登入/注册</a>
+                <li class="login sty">
+                    <span class="yhimg"></span>
+                    <a id="yhimg" href="login.html">登入/注册</a>
                     <span class="jt"></span>
-
+                    <div class="yhzx">
+                        <div id="yhzx">
+                            <p style="line-height:13px"><a style="color: #000">个人中心</a></p>
+                            <p style="line-height:13px"><a style="color: #000" href="shopcar.html">我的订单</a></p>
+                            <p style="line-height:13px"><a style="color: #000">我的优惠券</a></p>
+                            <p style="line-height:13px"><a style="color: #000">注销登入</a></p>
+                        </div>
+                    </div>
                 </li>
                 <li class="iconfont icon-gouwuchekong sty"><a href="shopcar.html">购物车</a></li>
                 <li class="official">佳能（中国）官网</li>
@@ -83,19 +87,19 @@
             </ul>
         </div>
         <div class="substance">
-            <div class="left">
-                <!-- <div id="smaill">
-                    <div class="mast"></div>
-                    <img src="../img/6D-24-105.jpg">
-                </div>
-
-                <dl>
-                    <dd><img src="../img/6D-24-105.jpg"> </dd>
-                </dl>
-
-                <div class="left_">
+            <div class="leftone">
+                <div class="left">
+                    <!--<div class="mast"></div>
+                    <img class= "smaill" src="../img/6D-24-105.jpg">
+                     <div class="left_">
                     <img id="bigimg" src="../img/6D-24-105.jpg">
                 </div> -->
+                </div>
+                <div class="left_1">
+                    <dl class="left_1-1">
+                        <!-- <dd><img src="../img/6D-24-105.jpg"> </dd> -->
+                    </dl>
+                </div>
             </div>
             <div class="right">
                 <!-- <h2>你好呀</h2>
@@ -138,75 +142,76 @@
         </div>
 
 
-    </div>
-
-    <div class="chosetitle">
-        <p>更多选择</p>
-    </div>
-    <div class="combo_clearfix">
-        <div class="combopro_fl">
-            <img src="../img/6D.jpg">
-            <p>EF 100-400mm f/4.5-5.6L IS II USM</p>
-        </div>
-        <div class="fl_and">
-            <img src="../img/and.a2c06fb.png">
-        </div>
-        <ul class="comgroup_fl">
-            <li>
-                <a>
-                    <img src="../img/6D.jpg">
-                    <p class="comgroupproName">EF 100-400mm f/4.5-5.6L IS II USM</p>
-                </a>
-                <p class="clearfix">
-                    <input type="checkbox">
-                    <span class="comPrice_fl">￥15699</span>
-                </p>
-            </li>
-            <li>
-                <a>
-                    <img src="../img/6D.jpg">
-                    <p class="comgroupproName">EF 100-400mm f/4.5-5.6L IS II USM</p>
-                </a>
-                <p class="clearfix">
-                    <input type="checkbox">
-                    <span class="comPrice_fl">￥15699</span>
-                </p>
-            </li>
-            <li>
-                <a>
-                    <img src="../img/6D.jpg">
-                    <p class="comgroupproName">EF 100-400mm f/4.5-5.6L IS II USM</p>
-                </a>
-                <p class="clearfix">
-                    <input type="checkbox">
-                    <span class="comPrice_fl">￥15699</span>
-                </p>
-            </li>
-
-        </ul>
-        <div class="buynew">
-            <p>已选择<span>0</span>配件</p>
-            <p>组合价格<span class="allprice">￥15699</span></p>
-            <span class="buynowgroup">立即购买</span>
-        </div>
-        <div class="equal">
-            <img src="../img/equal.2ee4d4f.png">
-        </div>
 
 
-    </div>
-    <div class="chosebuy">
-        <div class="choselist">
-            <h2>推荐产品</h2>
+        <div class="chosetitle">
+            <p>更多选择</p>
         </div>
-        <div class="proRecommend">
-            <h2>
-                <span class="prorec">产品详情</span>
-                <span>产品规格</span>
-            </h2>
+        <div class="combo_clearfix">
+            <div class="combopro_fl">
+                <img src="../img/6D.jpg">
+                <p>EF 100-400mm f/4.5-5.6L IS II USM</p>
+            </div>
+            <div class="fl_and">
+                <img src="../img/and.a2c06fb.png">
+            </div>
+            <ul class="comgroup_fl">
+                <li>
+                    <a>
+                        <img src="../img/6D.jpg">
+                        <p class="comgroupproName">EF 100-400mm f/4.5-5.6L IS II USM</p>
+                    </a>
+                    <p class="clearfix">
+                        <input type="checkbox">
+                        <span class="comPrice_fl">￥15699</span>
+                    </p>
+                </li>
+                <li>
+                    <a>
+                        <img src="../img/6D.jpg">
+                        <p class="comgroupproName">EF 100-400mm f/4.5-5.6L IS II USM</p>
+                    </a>
+                    <p class="clearfix">
+                        <input type="checkbox">
+                        <span class="comPrice_fl">￥15699</span>
+                    </p>
+                </li>
+                <li>
+                    <a>
+                        <img src="../img/6D.jpg">
+                        <p class="comgroupproName">EF 100-400mm f/4.5-5.6L IS II USM</p>
+                    </a>
+                    <p class="clearfix">
+                        <input type="checkbox">
+                        <span class="comPrice_fl">￥15699</span>
+                    </p>
+                </li>
+
+            </ul>
+            <div class="buynew">
+                <p>已选择<span>0</span>配件</p>
+                <p>组合价格<span class="allprice">￥15699</span></p>
+                <span class="buynowgroup">立即购买</span>
+            </div>
+            <div class="equal">
+                <img src="../img/equal.2ee4d4f.png">
+            </div>
+
+
         </div>
+        <div class="chosebuy">
+            <div class="choselist">
+                <h2>推荐产品</h2>
+            </div>
+            <div class="proRecommend">
+                <h2>
+                    <span class="prorec">产品详情</span>
+                    <span>产品规格</span>
+                </h2>
+            </div>
+        </div>
+        <div class="photo"><img src="../img/tututu.jpg"></div>
     </div>
-    <div class="photo"><img src="../img/tututu.jpg"></div>
     <!-- 尾部 -->
     <div class="foot">
         <div class="footnav">
@@ -255,8 +260,5 @@
 </html>
 <script src="../js/jquery-1.11.3.min.js"></script>
 <script src="../js/jquery.cookie.js"></script>
-<script src="../js/page.js"></script>
 <script src="../js/nav.js"></script>
-<script src="../js/shop.js"></script>
-<script src="../js/yhlogo.js"></script>
-<script src="../js/details.js"></script>
+<script src="../js/page.js"></script>

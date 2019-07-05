@@ -40,7 +40,7 @@ deff.done(function (json) {
     var stre = "";
     for (var i in json) {
         pro = json[i].list;
-        str += `<li class="nav_li">${i}</li>`
+        str += `<li class="nav_li">${json[i].name}</li>`
 
 
     }
@@ -51,13 +51,21 @@ deff.done(function (json) {
 
 
         stre = "";
-        for (var i in json) {
+        for (let i in json) {
             // console.log(i)
-            if ($(this).html() == i) {
+            if ($(this).html() == json[i].name) {
                 pro = json[i].list;
-                for (var j in pro) {
-                    stre += `<li>${pro[j].name}</li>`
+                for (let j in pro) {
+                    console.log()
+                    stre += `<li style="line-height:20px">
+                                <a href="list.html?pid=${pro[j].id}&pid1=${i}">${pro[j].name}</a>
+                            </li>`
+                    $(".secondmenu").on("click", "li", function () {
+                        location.href = `list.html?pid=${i}&pid1=${pro[j].id}`;
+                    })
+
                 }
+
                 $(".secondmenu").html(stre);
             }
         }
@@ -76,6 +84,8 @@ deff.done(function (json) {
 $(".secondmenu").on("mouseenter", "li", function () {
     $(this).css("background", "#bf2318").siblings().css("background", "#000");
 })
+
+
 //鼠标划上
 $("#newshop").mouseenter(function () {
     $(".news").slideDown(100);
@@ -145,6 +155,43 @@ $(".totop").click(function () {
 
     $("html,body").animate({
         scrollTop: 0
-    }, 1000, )
+    }, 1000)
+
+})
+//热销商品
+var daff = $.ajax({
+    type: "get",
+    url: "../json/newshop.json?_id=" + new Date().getTime(),
+    async: true
+});
+daff.done(function (json) {
+    var str = "";
+    var pro = null;
+    for (var i in json.list) {
+        pro = json.list[i];
+        if (pro.oldprice == 0) {
+            str += `<li> <a href="details.html?pid=${pro.id}">
+           <img class="hot" src="../img/hot2.140f870.png">
+          <img class="newhot" src="../img/is_new2.5a16c51.png">
+           <img class="shop" src="../${pro.src}">
+           <p class="font">${pro.name}</p>
+           <p class="active_price">会员价:<span>${pro.newprice}</span></p>
+           </a>
+       </li>`
+
+        } else if (pro.newprice == 0) {
+            str += `<li><a href="details.html?pid=${pro.id}">
+           <img class="hot" src="../img/hot2.140f870.png">
+          <img class="newhot" src="../img/is_new2.5a16c51.png">
+           <img class="shop" src="../${pro.src}">
+           <p class="font">${pro.name}</p>
+           <p class="old_price">建议零售价:<span>${pro.oldprice}</span></p>
+           </a> 
+       </li>`
+        }
+
+
+    }
+    $("#newsgood").html(str);
 
 })
